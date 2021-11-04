@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.rd3-axis-text{
+  font-weight: 500;
+  fill: #202020	;
+  opacity: 0.7;
+}
+
+.rd3-axis-labels{
+  font-size: 1.4em;
+}
+
+.rd3-legends-label{
+  font-weight: 500;
+  fill: white;
+  font-size: 1.5em;
+}
+
+.rd3-legend-text{
+  font-size: 0.8em;
+  stroke-width:0.3;
+}
+
+.rd3-svg-grid-lines{
+  stroke-width: 0.5;
+  shape-rendering: crispedges;
+  stroke: #606060 ;
+  opacity: 0.8;
+  /* stroke: brown ; */
+  /* stroke-dasharray: 5, 5; */
+}
+
+.rd3-svg-grid-ticks{
+  stroke-width: 0.5;
+  shape-rendering: crispedges;
+  /* stroke: #FFFFFF ; */
+    stroke: #BEBEBE ;
+  /* stroke-dasharray: 5, 5; */
+  /* opacity: 0; */
+}
+
+.rd3-svg-title{
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+
+/***** magna *****/
+.magma div{
+  background: '#008b8b';
+}
+
+text.magma{
+  fill: cornsilk	;
+  opacity: 0.9;
+}
+
+.rd3-axis-text.magma{
+  font-weight: 800;
+  fill: cornsilk	;
+  opacity: 0.7;
+}
+
+.rd3-svg-grid-lines.magma{
+  stroke-width: 0.5;
+  shape-rendering: crispedges;
+  stroke: #BEBEBE ;
+  opacity: 0.8;
+  /* stroke: brown ; */
+  /* stroke-dasharray: 5, 5; */
+}
+
+/***** ngbu *****/
+.gnbu div{
+  background: '#008b8b';
+}
+
+text.gnbu{
+  fill: darkblue	;
+  opacity: 0.9;
+}
+
+.rd3-axis-text.gnbu{
+  font-weight: 500;
+  fill: darkblue	;
+  opacity: 0.6 ;
+}
+
+
+/***** inferno *****/
+path.rd3-axis-domain.inferno{
+  stroke: brown ;
+  stroke-width: 1.5
+}
+
+text.inferno{
+  fill: cornsilk	;
+  opacity: 0.8;
+}
+
+.rd3-axis-text.inferno{
+  font-weight: 600;
+  fill: #c0c0c0	;
+  opacity: 0.8;
+}
+
+.rd3-svg-grid-lines.inferno{
+  stroke-width: 0.5;
+  shape-rendering: crispedges;
+  stroke: #BEBEBE ;
+  opacity: 0.8;
+  /* stroke: brown ; */
+  /* stroke-dasharray: 5, 5; */
+}
+
+
+
+/***** sinebow *****/
+text.sinebow{
+  fill: #c0c0c0	;
+  opacity: 0.8;
+}
+
+path.rd3-axis-domain.sinebow{
+  stroke: cyan ;
+  stroke-width: 0.9
+}
+
+.rd3-svg-title.sinebow{
+  fill:chartreuse;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.rd3-axis-text.sinebow{
+  font-weight: 600;
+  fill: #c0c0c0	;
+  opacity: 0.8;
+}
+
+.rd3-svg-grid-lines.sinebow{
+  stroke-width: 0.5;
+  shape-rendering: crispedges;
+  stroke: #BEBEBE ;
+  opacity: 0.8;
+  /* stroke: brown ; */
+  /* stroke-dasharray: 5, 5; */
+}
+
+
+/***** schemeblues *****/
+text.schemeblues{
+  fill: #000000	;
+  opacity: 0.8;
+}
+
+.rd3-axis-text.schemeblues{
+  font-weight: 500;
+  fill: #202020	;
+  /* opacity: 0.8; */
+}
+
+.rd3-svg-grid-lines.schemeblues{
+  stroke-width: 0.5;
+  shape-rendering: crispedges;
+  stroke: darkblue ;
+  opacity: 0.6;
+  /* stroke: brown ; */
+  /* stroke-dasharray: 5, 5; */
+}
+
+
+/***** orrd *****/
+text.orrd{
+  fill: saddlebrown	;
+  opacity: 0.9;
+}
+
+.rd3-axis-text.orrd{
+  font-weight: 400;
+  fill: crimson	;
+  /* opacity: 0.8; */
+}
+
+.rd3-svg-grid-lines.orrd{
+  stroke-width: 0.5;
+  shape-rendering: crimson;
+  stroke: darkblue ;
+  opacity: 0.6;
+  /* stroke: brown ; */
+  /* stroke-dasharray: 5, 5; */
+}
+
+
+
+/***** paste1 *****/
+text.pastel1{
+  fill: black	;
+  opacity: 0.9;
+}
+
+.rd3-axis-text.pastel1{
+  font-weight: 400;
+  fill: indigo	;
+  /* opacity: 0.8; */
+}
+
+.rd3-svg-grid-lines.pastel1{
+  stroke-width: 0.5;
+  /* shape-rendering: crimson; */
+  stroke: darkred ;
+  opacity: 0.6;
+  /* stroke: brown ; */
+  /* stroke-dasharray: 5, 5; */
+}

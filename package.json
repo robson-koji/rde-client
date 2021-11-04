@@ -1,0 +1,45 @@
+{
+  "name": "new-cra",
+  "sideEffects": [
+    "react-d3/src/common/*, react-d3/src/mixins/*, react-d3/src/utils/*",
+    "*.css"
+  ],
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.1.2",
+    "create-react-class": "^15.7.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "2.0.3",
+    "serve": "^12.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "web-vitals": "^2.1.2",
+    "d3": "^7"
+  }
+}
