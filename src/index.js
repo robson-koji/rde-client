@@ -17,13 +17,24 @@ let charts = document.getElementsByClassName('charts');
         yAxisLabel={chart.getAttribute('data-yAxisLabel')}
         xAxisLabel={chart.getAttribute('data-xAxisLabel')}
 
-        xAxisLabelOffset={chart.getAttribute('data-xAxisLabelOffset')}
-        yAxisLabelOffset={chart.getAttribute('data-yAxisLabelOffset')}
-        xIsDate={chart.getAttribute('data-xIsDate')}
+        xAxisLabelOffset={parseInt(chart.getAttribute('data-xAxisLabelOffset'))}
+        yAxisLabelOffset={parseInt(chart.getAttribute('data-yAxisLabelOffset'))}
+        xIsDate={chart.getAttribute('data-xIsDate') === 'true'}
         svgLegend_x={chart.getAttribute('data-svgLegend_x')}
-        svgLegend_y={chart.getAttribute('data-svgLegend_y')}
-        svgChartWidht={chart.getAttribute('data-svgChartWidht')}
+        svgLegend_y={parseInt(chart.getAttribute('data-svgLegend_y'))}
+        svgChartWidth={chart.getAttribute('data-svgChartWidth')}
         styles={chart.getAttribute('data-styles')}
+
+        svgChartHeight={chart.getAttribute('data-svgChartHeight')}
+
+        viewBoxObjectHeight={parseInt(chart.getAttribute('data-viewBoxObjectHeight'))}
+        viewBoxObjectWidth={parseInt(chart.getAttribute('data-viewBoxObjectWidth'))}
+
+        translateTickLabel_Y_X={parseInt(chart.getAttribute('data-translateTickLabel_Y_X'))}
+        translateTickLabel_Y_Y={parseInt(chart.getAttribute('data-translateTickLabel_Y_Y'))}
+        translateTickLabel_X_X={parseInt(chart.getAttribute('data-translateTickLabel_X_X'))}
+        translateTickLabel_X_Y={parseInt(chart.getAttribute('data-translateTickLabel_X_Y'))}
+
     />,
      chart
 )});

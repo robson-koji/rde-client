@@ -1,6 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 const d3 = require('d3');
 
+
+
+const bv = [ "#b08beb", "#3ea0dd", "#faa586", "#4661ee", "#8faabb", "#f5a52a", "#23bfaa", "#1bcdd1", "#ec5657" ]
+const customFlat1 = ["#38C172","#E3342F","#F6993F","#FFED4A","#4DC0B5","#3490DC","#9561E2","#F66D9B", "#B8C2CC",]
 
 const Style = (props) => {
   const style = {magma:
@@ -16,7 +20,7 @@ const Style = (props) => {
                   orrd:
                     {scale:{colors: d3.scaleSequential(d3.interpolateOrRd),
                             accessor: 'Sequential'},
-                    svgBkgColor:'#FFEBCD'
+                    svgBkgColor:'rgba(199, 169, 123, 0.1)'
                     },
                   gnbu:
                     {scale:{colors: d3.scaleSequential(d3.interpolateGnBu),
@@ -56,7 +60,7 @@ const Style = (props) => {
                     pastel1:
                       {scale:{colors: d3.scaleOrdinal(d3.schemePastel1),
                               accessor: 'Ordinal'},
-                      svgBkgColor:'lightsalmon'
+                      svgBkgColor:'#516777'
                       },
 
                     schemeset1:
@@ -74,8 +78,19 @@ const Style = (props) => {
                     pubu:
                       {scale:{colors: d3.scaleOrdinal(d3.schemePuBu[9]),
                               accessor: 'Ordinal'},
+                      svgBkgColor:'#77889912'
+                        },
+                    customflat1:
+                      {scale:{colors: d3.scaleOrdinal(customFlat1),
+                              accessor: 'Ordinal'},
                       svgBkgColor:'lightslategrey'
                         },
+                    bv:
+                      {scale:{colors: d3.scaleOrdinal(bv),
+                              accessor: 'Ordinal'},
+                      svgBkgColor:'#FFFFFF'
+                        },
+
 
 
 

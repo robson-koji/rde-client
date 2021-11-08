@@ -15,7 +15,8 @@ code {
 
 
 .rd3-axis-text{
-  font-weight: 500;
+  font-size: 1.3em;
+  font-weight: 400;
   fill: #202020	;
   opacity: 0.7;
 }
@@ -58,6 +59,12 @@ code {
   font-weight: 500;
 }
 
+
+/***** pubu *****/
+/* .rd3-legend-chart.pubu{
+  background: '#778899';
+  opacity: 0.12
+} */
 
 /***** magna *****/
 .magma div{
@@ -198,7 +205,7 @@ text.orrd{
 
 .rd3-svg-grid-lines.orrd{
   stroke-width: 0.5;
-  shape-rendering: crimson;
+  shape-rendering: crispedges;
   stroke: darkblue ;
   opacity: 0.6;
   /* stroke: brown ; */
@@ -209,21 +216,69 @@ text.orrd{
 
 /***** paste1 *****/
 text.pastel1{
-  fill: black	;
+  fill: floralwhite	;
   opacity: 0.9;
 }
 
 .rd3-axis-text.pastel1{
-  font-weight: 400;
-  fill: indigo	;
-  /* opacity: 0.8; */
+  font-weight: 500;
+  fill: floralwhite	;
+  opacity: 0.8;
+  font-weight: 700;
+
 }
 
 .rd3-svg-grid-lines.pastel1{
   stroke-width: 0.5;
-  /* shape-rendering: crimson; */
-  stroke: darkred ;
+  shape-rendering: crispedges;
+  stroke: #D3D3D3 ;
   opacity: 0.6;
   /* stroke: brown ; */
   /* stroke-dasharray: 5, 5; */
+}
+
+.rd3-svg-grid-ticks.pastel1{
+  stroke-width: 0.5;
+  stroke: #D3D3D3 ;
+}
+
+path.rd3-axis-domain.pastel1{
+  stroke: '#000000' ;
+  stroke-width: 1.6;
+  opacity: 0.5;
+}
+
+
+
+
+/***** customflat1 *****/
+text.customflat1{
+  fill: #090909	;
+  opacity: 0.9;
+}
+
+.rd3-axis-text.customflat1{
+  font-weight: 500;
+  fill: #090909	;
+  /* opacity: 0.8; */
+}
+
+.rd3-svg-grid-lines.customflat1{
+  stroke-width: 0.5;
+  shape-rendering: crispedges;
+  stroke:  #D3D3D3 ;
+  opacity: 0.6;
+  /* stroke: brown ; */
+  stroke-dasharray: 5, 5;
+}
+
+.rd3-svg-grid-ticks.customflat1{
+  stroke-width: 0.5;
+  stroke:  #D3D3D3 ;
+}
+
+
+/***** ngbu *****/
+.gnbu div{
+  background: '#008b8b';
 }

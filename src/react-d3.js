@@ -1,1 +1,1 @@
-../../rd3/dist/public/js/react-d3.js
+../../rd3/build/cjs/index.js
