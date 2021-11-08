@@ -9,23 +9,19 @@ const DropdownMenu = (props) => {
   }}, [selectStyle]);
 
   function options(styles){
-    if (styles == 'sparse'){
+    if (styles === 'sparse'){
       return (
         <select id="lang" onChange={(e)=>{ setSelectStyle(e.target.value)}} value={selectStyle}>
-          <option value="schemeset1">Set 1</option>
-          <option value="pubu">PuBu</option>
+
+          <option value="bv">BV</option>
+          <option value="pastel1">Pastel 1</option>
           <option value="orrd">Orange/Red</option>
-          <option value="gnbu">Green/Blue</option>
-          <option value="inferno">Inferno</option>
-          <option value="tableau10">Tableau - 10</option>
-          <option value="schemeblues">Blue - 9</option>
-          <option value="pastel1">Paste 1</option>
           <option value="spectral">Spectral</option>
-          <option value="sinebow">Sinebow</option>
+          <option value="pubu">PuBu</option>
         </select>
       )
     }else{
-      if (styles == 'dense'){
+      if (styles === 'dense'){
         return (
           <select id="lang" onChange={(e)=>{ setSelectStyle(e.target.value)}} value={selectStyle}>
             <option value="magma">Magma</option>
@@ -45,7 +41,7 @@ const DropdownMenu = (props) => {
   const styles = props.styles
   return (
     <div>
-        { options(styles) }
+        <p> Estilos: { options(styles) } </p>
         <p></p>
     </div>
   );

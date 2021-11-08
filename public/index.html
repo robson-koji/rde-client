@@ -32,7 +32,7 @@
         justify-content: center; /* Horizontal */
       }
       #container_charts{
-        width:100%;
+        width:60%;
       }
       .container_chart{
         padding-top:30px;
@@ -56,17 +56,21 @@
           data-titulo="Artigos x Área do Conhecimento x Ano de Publicação"
 
           data-styles="sparse"
-          data-style="pastel1"
+          data-style="bv"
           data-api = "data/artigos_area_ano.csv"
           data-xAxisLabel="Ano da publicação dos artigos"
           data-yAxisLabel="Número de Artigos"
-          data-xAxisLabelOffset=110
-          data-yAxisLabelOffset=60
+          data-xAxisLabelOffset=95
+          data-yAxisLabelOffset=75
           data-xIsDate=false
           data-svgLegend_x='83%'
-          data-svgLegend_y=65
-          data-svgChartWidht=85%
+          data-svgLegend_y=50
+          data-svgChartWidth=85%
+          data-viewBoxObjectHeight=400
+          data-viewBoxObjectWidth=1200
 
+          data-translateTickLabel_X_X=8
+          data-translateTickLabel_X_Y=-7
         >
         </div>
         <p>
@@ -74,6 +78,8 @@
         </p>
       </div>
 
+      <p>&nbsp;</p>
+    <hr/>
 
       <div id="container_chart_2" class="container_chart">
         <div id="chart_2"
@@ -84,12 +90,17 @@
           data-api = "data/acidentes_estado_data.csv"
           data-xAxisLabel="Semanas"
           data-yAxisLabel="Número de acidentes"
-          data-xAxisLabelOffset=110
-          data-yAxisLabelOffset=60
+          data-xAxisLabelOffset=120
+          data-yAxisLabelOffset=70
           data-xIsDate=true
           data-svgLegend_x='91%'
-          data-svgLegend_y=65
-          data-svgChartWidht=90%
+          data-svgLegend_y=50
+          data-svgChartWidth=90%
+          data-viewBoxObjectHeight=500
+          data-viewBoxObjectWidth=1200
+
+          data-translateTickLabel_X_X=-6
+          data-translateTickLabel_X_Y=13
 
         >
 

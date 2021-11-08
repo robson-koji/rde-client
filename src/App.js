@@ -8,11 +8,6 @@ import Style from './style'
 import {ChartProvider, SetStyle, BarChart} from './react-d3'
 
 const d3 = require('d3');
-const ReactDOM = require('react-dom');
-
-// const rd3 = require('rd3');
-// const BarChart = rd3.BarChart;
-
 
 
 function App(props) {
@@ -31,11 +26,19 @@ function App(props) {
   const [xAxisLabelOffset, setXAxisLabelOffset] = useState(props.xAxisLabelOffset);
   const [yAxisLabelOffset, setYAxisLabelOffset] = useState(props.yAxisLabelOffset);
   const [xIsDate, setXIsDate] = useState(props.xIsDate);
-  const [svgChartWidht, setSvgChartWidht] = useState(props.svgChartWidht);
-
+  const [svgChartWidth, setsvgChartWidth] = useState(props.svgChartWidth);
+  const [svgChartHeight, setSvgChartHeight] = useState(props.svgChartHeight);
 
   const svgLegend = {position:{x:props.svgLegend_x,y:props.svgLegend_y}}
-  const svgChart = {width:props.svgChartWidht}
+  const svgChart = {width:props.svgChartWidth}
+  svgChart['height'] = props.svgChartHeight
+
+  const [translateTickLabel_Y_X, setTranslateTickLabel_Y_X] = useState(props.translateTickLabel_Y_X);
+  const [translateTickLabel_Y_Y, setTranslateTickLabel_Y_Y] = useState(props.translateTickLabel_Y_Y);
+  const [translateTickLabel_X_X, setTranslateTickLabel_X_X] = useState(props.translateTickLabel_X_X);
+  const [translateTickLabel_X_Y, setTranslateTickLabel_X_Y] = useState(props.translateTickLabel_X_Y);
+
+
   // debugger;
 
   // Style
@@ -44,6 +47,8 @@ function App(props) {
   const [color, setColor] = useState({});
   const [background, setBackground] = useState('darkcyan');
 
+  const [viewBoxObjectHeight, setViewBoxObjectHeight] = useState(props.viewBoxObjectHeight);
+  const [viewBoxObjectWidth, setViewBoxObjectWidth] = useState(props.viewBoxObjectWidth);
 
   // API x Data
   const [api, setApi] = useState(props.api);
@@ -55,10 +60,16 @@ function App(props) {
       fetchData().then(response => setBarData(response));
   }, []);
 
+  const viewBoxObject = {
+      x: 0,
+      y: 0,
+      height: props.viewBoxObjectHeight,
+      width: props.viewBoxObjectWidth,
+  }
 
   return (
     <ChartProvider>
-    <div>
+    <div style={{background: "#FFFFFF"}}>
           <BarChart
               legend={true}
               data={barData}
@@ -66,13 +77,7 @@ function App(props) {
               grouped={true}
               width="100%"
               height="100%"
-              viewBoxObject={{
-                x: 0,
-                y: 0,
-                width: 1200,
-                height: 500,
-              }}
-              domain={{ x: [, ], y: [, ] }}
+              viewBoxObject={viewBoxObject}
               title={titulo}
               gridHorizontal={true}
               gridVertical={true}
@@ -107,6 +112,10 @@ function App(props) {
                         fontSize:'2.3em',
                       }}
               svgChart={svgChart}
+              translateTickLabel_Y_X={translateTickLabel_Y_X}
+              translateTickLabel_Y_Y={translateTickLabel_Y_Y}
+              translateTickLabel_X_X={translateTickLabel_X_X}
+              translateTickLabel_X_Y={translateTickLabel_X_Y}
           />
           <SetStyle style={style}/>
 
@@ -116,7 +125,6 @@ function App(props) {
             style={style}
             setColor={setColor}
             setBackground={setBackground}
-
           />
 
           <DropdownMenu
