@@ -9,6 +9,7 @@
   "dependencies": {
     "cra-template": "1.1.2",
     "create-react-class": "^15.7.0",
+    "d3-voronoi": "^1.1.4",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-scripts": "2.0.3",

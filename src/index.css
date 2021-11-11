@@ -13,7 +13,9 @@ code {
 }
 
 
-
+.rd3-barchart-yaxis .rd3-axis-domain{
+  display: none;
+}
 .rd3-axis-text{
   font-size: 1.3em;
   font-weight: 400;
