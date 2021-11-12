@@ -35,7 +35,26 @@ function LineChartInterface(props) {
       width: props.viewBoxObjectWidth,
   }
 
-  // console.log(barData)
+
+
+    const gridTextRotateBottom = props.gridTextRotateBottom || -65;
+    const gridText = {
+        rotate:{
+            bottom:"rotate(" + gridTextRotateBottom + ")"
+          },
+          translate:{
+            text:{
+                x:0,
+                y:10
+                }
+            },
+            font:{
+              size:'0.8em',
+              weight:'0.3'
+            }
+          }
+
+  // console.log(props.xTickFormat)
   // debugger;
 
   return (
@@ -55,25 +74,28 @@ function LineChartInterface(props) {
               gridHorizontal={true}
               gridVertical={true}
               color={color}
-              margins={{ top: 52, right: 20, bottom: 110, left: 110 }}
+              margins={{ top: 72, right: 20, bottom: 110, left: 110 }}
               yAxisTickCount={10}
+              xTickFormat={props.xTickFormat}
 
               // axisTxtRotate={{top:null,right:null,bottom:"rotate(-65)",left:null}}
-              gridText={{rotate:{bottom:"rotate(-65)"},
-                         translate:{text:{
-                                      x:-26,
-                                      y:33
-                                    }},
-                          font:{size:'0.8em',
-                                weight:'0.3'
-                              }
-                        }}
+              gridText={gridText}
+              // gridText={{rotate:{bottom:"rotate(-65)"},
+              //            translate:{text:{
+              //                         x:-26,
+              //                         y:33
+              //                       }},
+              //             font:{size:'0.8em',
+              //                   weight:'0.3'
+              //                 }
+              //           }}
 
               xAxisLabelOffset={props.xAxisLabelOffset}
               yAxisLabelOffset={props.yAxisLabelOffset}
 
               xAxisLabel={props.xAxisLabel}
               yAxisLabel={props.yAxisLabel}
+              voronoiStroke={props.voronoiStroke}
 
               svgLegend={svgLegend}
 
@@ -91,6 +113,8 @@ function LineChartInterface(props) {
               translateTickLabel_X_X={props.translateTickLabel_X_X}
               translateTickLabel_X_Y={props.translateTickLabel_X_Y}
               strokeWidth={props.lineStrokeWidth}
+
+              circleRadius={props.circleRadius}
           />
           <SetStyle style={style}/>
 

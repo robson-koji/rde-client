@@ -19,7 +19,7 @@ const DropdownMenu = (props) => {
           <option value="spectral">Spectral</option>
           <option value="pubu">PuBu</option>
           <option value="tableau10">Tableau 10</option>
-
+          <option value="sinebow">Sinebow</option>
         </select>
       )
     }else{

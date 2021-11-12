@@ -38,6 +38,7 @@ let charts = document.getElementsByClassName('charts');
             translateTickLabel_X_Y={parseInt(chart.getAttribute('data-translateTickLabel_X_Y'))}
 
             inputDataLayout={chart.getAttribute('data-inputDataLayout')}
+            xTickFormat={chart.getAttribute('data-xTickFormat')}
 
         />, chart
       )
@@ -73,7 +74,11 @@ let charts = document.getElementsByClassName('charts');
 
             inputDataLayout={chart.getAttribute('data-inputDataLayout')}
 
-            lineStrokeWidth={chart.getAttribute('data-lineStrokeWidth')} 
+            lineStrokeWidth={chart.getAttribute('data-lineStrokeWidth')}
+            circleRadius={chart.getAttribute('data-circleRadius')}
+            xTickFormat={chart.getAttribute('data-xTickFormat')}
+            voronoiStroke={chart.getAttribute('data-voronoiStroke')}
+            gridTextRotateBottom={chart.getAttribute('data-gridTextRotateBottom')}
 
         />, chart
       )
