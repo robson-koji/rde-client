@@ -47,7 +47,8 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="container_charts">
-<!--
+<!---->
+
       <div id="container_chart_1" class="container_chart">
         <div
           id="chart_1"
@@ -83,36 +84,6 @@
       <hr/>
 
 
-      <div id="container_chart_2" class="container_chart">
-        <div id="chart_2"
-          class="charts"
-          data-chart="barchart"
-          data-styles="dense"
-          data-titulo="Acidentes de trânsito nas rodovias federais do Brasil"
-          data-style="magma"
-          data-api = "data/acidentes_estado_data.csv"
-          data-inputDataLayout="csvRows"
-          data-xAxisLabel="Semanas"
-          data-yAxisLabel="Número de acidentes"
-          data-xAxisLabelOffset=120
-          data-yAxisLabelOffset=70
-          data-xIsDate=true
-          data-svgLegend_x='91%'
-          data-svgLegend_y=50
-          data-svgChartWidth=90%
-          data-viewBoxObjectHeight=500
-          data-viewBoxObjectWidth=1200
-          data-translateTickLabel_X_X=-6
-          data-translateTickLabel_X_Y=13
-        >
-        </div>
-        <p>
-          <a href="#" id="toggle_fullscreen_chart_2" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-        </p>
-      </div>
-      <p>&nbsp;</p>
-      <hr/>
-
 
 
       <div id="container_chart_3" class="container_chart">
@@ -142,20 +113,50 @@
       </div>
       <p>&nbsp;</p>
       <hr/>
+
+
+      <div id="container_chart_2" class="container_chart">
+        <div id="chart_2"
+          class="charts"
+          data-chart="barchart"
+          data-styles="dense"
+          data-titulo="Acidentes de trânsito nas rodovias federais do Brasil"
+          data-style="magma"
+          data-api = "data/acidentes_estado_data.csv"
+          data-inputDataLayout="csvRows"
+          data-xAxisLabel="Semanas"
+          data-yAxisLabel="Número de acidentes"
+          data-xAxisLabelOffset=120
+          data-yAxisLabelOffset=70
+          data-svgLegend_x='91%'
+          data-svgLegend_y=50
+          data-svgChartWidth=90%
+          data-viewBoxObjectHeight=500
+          data-viewBoxObjectWidth=1200
+          data-translateTickLabel_X_X=-6
+          data-translateTickLabel_X_Y=13
+        >
+        </div>
+        <p>
+          <a href="#" id="toggle_fullscreen_chart_2" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
+        </p>
+      </div>
+      <p>&nbsp;</p>
+      <hr/>
+
+
 -->
-
-
       <div id="container_chart_4" class="container_chart">
         <div id="chart_4"
           class="charts"
           data-chart="linechart"
           data-styles="sparse"
-          data-titulo="Edição e revisão de projetos FAPESP na Biblioteca Virtual"
-          data-style="spectral"
+          data-titulo="Artigos x Área do Conhecimento x Ano de Publicação"
+          data-style="sinebow"
           data-api = "data/artigos_area_ano.csv"
           data-inputDataLayout="csvRows"
-          data-xAxisLabel="Data"
-          data-yAxisLabel="Número de edições e revisões"
+          data-xAxisLabel="Ano da publicação dos artigos"
+          data-yAxisLabel="Número de artigos"
           data-xAxisLabelOffset=95
           data-yAxisLabelOffset=70
           data-xIsDate=false
@@ -165,6 +166,10 @@
           data-viewBoxObjectHeight=500
           data-viewBoxObjectWidth=1200
           data-lineStrokeWidth=4
+          data-circleRadius=4
+
+          data-voronoiStroke=''
+          data-gridTextRotateBottom=0
         >
         </div>
         <p>
@@ -181,7 +186,7 @@
           class="charts"
           data-chart="linechart"
           data-styles="sparse"
-          data-titulo="FAMNG DATA"
+          data-titulo="FIAAMG DATA"
           data-style="spectral"
           data-api = "data/stock_data.csv"
           data-inputDataLayout="csvStandard"
@@ -190,12 +195,17 @@
           data-xAxisLabelOffset=95
           data-yAxisLabelOffset=70
           data-xIsDate=true
-          data-svgLegend_x='82%'
+          data-xTickFormat='%b %y'
+          data-svgLegend_x='89%'
           data-svgLegend_y=80
-          data-svgChartWidth=84%
+          data-svgChartWidth=89%
           data-viewBoxObjectHeight=500
           data-viewBoxObjectWidth=1200
-          data-lineStrokeWidth=4
+          data-lineStrokeWidth=2
+          data-circleRadius=0
+
+          data-gridTextRotateBottom=0
+
         >
         </div>
         <p>
