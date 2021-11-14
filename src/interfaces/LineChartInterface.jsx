@@ -78,17 +78,8 @@ function LineChartInterface(props) {
               yAxisTickCount={10}
               xTickFormat={props.xTickFormat}
 
-              // axisTxtRotate={{top:null,right:null,bottom:"rotate(-65)",left:null}}
               gridText={gridText}
-              // gridText={{rotate:{bottom:"rotate(-65)"},
-              //            translate:{text:{
-              //                         x:-26,
-              //                         y:33
-              //                       }},
-              //             font:{size:'0.8em',
-              //                   weight:'0.3'
-              //                 }
-              //           }}
+
 
               xAxisLabelOffset={props.xAxisLabelOffset}
               yAxisLabelOffset={props.yAxisLabelOffset}
