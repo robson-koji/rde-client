@@ -47,7 +47,49 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="container_charts">
-<!---->
+
+
+
+
+                <div id="container_chart_area_1" class="container_chart">
+                  <div id="chart_area_1"
+                    class="charts"
+                    data-chart="areachart"
+                    data-styles="sparse"
+                    data-titulo="Áreas do conhecimento de acordo com a vigência "
+                    data-style="spectral"
+                    data-api = "data/areas_status.csv"
+                    data-input-Data-Layout="csvStandard"
+                    data-x-Axis-Label="Data"
+                    data-y-Axis-Label="Price"
+                    data-x-Axis-Label-Offset=95
+                    data-y-Axis-Label-Offset=70
+                    data-x-Is-Date=true
+                    data-x-Tick-Format='%Y'
+                    data-svg-Legend_x='82%'
+                    data-svg-Legend_y=80
+                    data-svg-Chart-Width=84%
+                    data-view-Box-Object-Height=500
+                    data-view-Box-Object-Width=1200
+                    data-line-Stroke-Width=3
+                    data-circle-Radius=3
+
+                    data-grid-Text-Rotate-Bottom=0
+
+                  >
+                  </div>
+                  <p>
+                    <a href="#" id="toggle_fullscreen_chart_area_1" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
+                  </p>
+                </div>
+                <p>&nbsp;</p>
+                <hr/>
+
+
+
+
+
+
 
       <div id="container_chart_1" class="container_chart">
         <div
@@ -58,20 +100,20 @@
           data-styles="sparse"
           data-style="bv"
           data-api = "data/artigos_area_ano.csv"
-          data-inputDataLayout="csvRows"
-          data-xAxisLabel="Ano da publicação dos artigos"
-          data-yAxisLabel="Número de Artigos"
-          data-xAxisLabelOffset=95
-          data-yAxisLabelOffset=75
-          data-xIsDate=false
-          data-svgLegend_x='83%'
-          data-svgLegend_y=50
-          data-svgChartWidth=85%
-          data-viewBoxObjectHeight=400
-          data-viewBoxObjectWidth=1200
+          data-input-Data-Layout="csvRows"
+          data-x-Axis-Label="Ano da publicação dos artigos"
+          data-y-Axis-Label="Número de Artigos"
+          data-x-Axis-Label-Offset="95"
+          data-y-Axis-Label-Offset="75"
+          data-x-Is-Date=false
+          data-svg-Legend_x='83%'
+          data-svg-Legend_y="50"
+          data-svg-Chart-Width=85%
+          data-view-Box-Object-Height="400"
+          data-view-Box-Object-Width="1200"
 
-          data-translateTickLabel_X_X=8
-          data-translateTickLabel_X_Y=-7
+          data-translate-Tick-Label_X_X="8"
+          data-translate-Tick-Label_X_Y="-7"
         >
         </div>
         <p>
@@ -85,7 +127,6 @@
 
 
 
-
       <div id="container_chart_3" class="container_chart">
         <div id="chart_3"
           class="charts"
@@ -94,17 +135,17 @@
           data-titulo="Edição e revisão de projetos FAPESP na Biblioteca Virtual"
           data-style="pastel1"
           data-api = "data/libs.csv"
-          data-inputDataLayout="csvStandard"
-          data-xAxisLabel="Data"
-          data-yAxisLabel="Número de edições e revisões"
-          data-xAxisLabelOffset=120
-          data-yAxisLabelOffset=70
-          data-xIsDate=false
-          data-svgLegend_x='90%'
-          data-svgLegend_y=50
-          data-svgChartWidth=90%
-          data-viewBoxObjectHeight=500
-          data-viewBoxObjectWidth=1200
+          data-input-Data-Layout="csvStandard"
+          data-x-Axis-Label="Data"
+          data-y-Axis-Label="Número de edições e revisões"
+          data-x-Axis-Label-Offset=120
+          data-y-Axis-Label-Offset=70
+          data-x-Is-Date=false
+          data-svg-Legend_x='90%'
+          data-svg-Legend_y=50
+          data-svg-Chart-Width=90%
+          data-view-Box-Object-Height=500
+          data-view-Box-Object-Width=1200
         >
         </div>
         <p>
@@ -123,18 +164,18 @@
           data-titulo="Acidentes de trânsito nas rodovias federais do Brasil"
           data-style="magma"
           data-api = "data/acidentes_estado_data.csv"
-          data-inputDataLayout="csvRows"
-          data-xAxisLabel="Semanas"
-          data-yAxisLabel="Número de acidentes"
-          data-xAxisLabelOffset=120
-          data-yAxisLabelOffset=70
-          data-svgLegend_x='91%'
-          data-svgLegend_y=50
-          data-svgChartWidth=90%
-          data-viewBoxObjectHeight=500
-          data-viewBoxObjectWidth=1200
-          data-translateTickLabel_X_X=-6
-          data-translateTickLabel_X_Y=13
+          data-input-Data-Layout="csvRows"
+          data-x-Axis-Label="Semanas"
+          data-y-Axis-Label="Número de acidentes"
+          data-x-Axis-Label-Offset=120
+          data-y-Axis-Label-Offset=70
+          data-svg-Legend_x='91%'
+          data-svg-Legend_y=50
+          data-svg-Chart-Width=90%
+          data-view-Box-Object-Height=500
+          data-view-Box-Object-Width=1200
+          data-translate-Tick-Label_X_X=-6
+          data-translate-Tick-Label_X_Y=13
         >
         </div>
         <p>
@@ -145,7 +186,7 @@
       <hr/>
 
 
--->
+
       <div id="container_chart_4" class="container_chart">
         <div id="chart_4"
           class="charts"
@@ -154,22 +195,22 @@
           data-titulo="Artigos x Área do Conhecimento x Ano de Publicação"
           data-style="sinebow"
           data-api = "data/artigos_area_ano.csv"
-          data-inputDataLayout="csvRows"
-          data-xAxisLabel="Ano da publicação dos artigos"
-          data-yAxisLabel="Número de artigos"
-          data-xAxisLabelOffset=95
-          data-yAxisLabelOffset=70
-          data-xIsDate=false
-          data-svgLegend_x='82%'
-          data-svgLegend_y=80
-          data-svgChartWidth=84%
-          data-viewBoxObjectHeight=500
-          data-viewBoxObjectWidth=1200
-          data-lineStrokeWidth=4
-          data-circleRadius=4
+          data-input-Data-Layout="csvRows"
+          data-x-Axis-Label="Ano da publicação dos artigos"
+          data-y-Axis-Label="Número de artigos"
+          data-x-Axis-Label-Offset=95
+          data-y-Axis-Label-Offset=70
+          data-x-Is-Date=false
+          data-svg-Legend_x='82%'
+          data-svg-Legend_y=80
+          data-svg-Chart-Width=84%
+          data-view-Box-Object-Height=500
+          data-view-Box-Object-Width=1200
+          data-line-Stroke-Width=4
+          data-circle-Radius=4
 
-          data-voronoiStroke=''
-          data-gridTextRotateBottom=0
+          data-voronoi-Stroke=''
+          data-grid-Text-Rotate-Bottom=0
         >
         </div>
         <p>
@@ -189,33 +230,115 @@
           data-titulo="FIAAMG DATA"
           data-style="spectral"
           data-api = "data/stock_data.csv"
-          data-inputDataLayout="csvStandard"
-          data-xAxisLabel="Data"
-          data-yAxisLabel="Price"
-          data-xAxisLabelOffset=95
-          data-yAxisLabelOffset=70
-          data-xIsDate=true
-          data-xTickFormat='%b %y'
-          data-svgLegend_x='89%'
-          data-svgLegend_y=80
-          data-svgChartWidth=89%
-          data-viewBoxObjectHeight=500
-          data-viewBoxObjectWidth=1200
-          data-lineStrokeWidth=2
-          data-circleRadius=0
+          data-input-Data-Layout="csvStandard"
+          data-x-Axis-Label="Data"
+          data-y-Axis-Label="Price"
+          data-x-Axis-Label-Offset=95
+          data-y-Axis-Label-Offset=70
+          data-x-Is-Date=true
+          data-x-Tick-Format='%b %y'
+          data-svg-Legend_x='89%'
+          data-svg-Legend_y=80
+          data-svg-Chart-Width=89%
+          data-view-Box-Object-Height=500
+          data-view-Box-Object-Width=1200
+          data-line-Stroke-Width=2
+          data-circle-Radius=0
 
-          data-gridTextRotateBottom=0
+          data-grid-Text-Rotate-Bottom=0
 
         >
         </div>
         <p>
-          <a href="#" id="toggle_fullscreen_chart_4" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
+          <a href="#" id="toggle_fullscreen_chart_5" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
         </p>
       </div>
       <p>&nbsp;</p>
       <hr/>
 
 
+
+
+
+
+
+
+
+
+            <div id="container_chart_6" class="container_chart">
+              <div id="chart_6"
+                class="charts"
+                data-chart="linechart"
+                data-styles="sparse"
+                data-titulo="Projetos de acordo com a vigência "
+                data-style="spectral"
+                data-api = "data/projetos_status.csv"
+                data-input-Data-Layout="csvStandard"
+                data-x-Axis-Label="Data"
+                data-y-Axis-Label="Price"
+                data-x-Axis-Label-Offset=95
+                data-y-Axis-Label-Offset=70
+                data-x-Is-Date=true
+                data-x-Tick-Format='%Y'
+                data-svg-Legend_x='80%'
+                data-svg-Legend_y=80
+                data-svg-Chart-Width=82%
+                data-view-Box-Object-Height=500
+                data-view-Box-Object-Width=1200
+                data-line-Stroke-Width=4
+                data-circle-Radius=4
+
+                data-grid-Text-Rotate-Bottom=0
+
+              >
+              </div>
+              <p>
+                <a href="#" id="toggle_fullscreen_chart_6" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
+              </p>
+            </div>
+            <p>&nbsp;</p>
+            <hr/>
+
+
+
+
+
+          <div id="container_chart_7" class="container_chart">
+            <div id="chart_7"
+              class="charts"
+              data-chart="barchart"
+              data-styles="sparse"
+              data-titulo="Áreas do conhecimento de acordo com a vigência "
+              data-style="spectral"
+              data-api = "data/areas_status.csv"
+              data-input-Data-Layout="csvStandard"
+              data-x-Axis-Label="Data"
+              data-y-Axis-Label="Price"
+              data-x-Axis-Label-Offset=95
+              data-y-Axis-Label-Offset=70
+              data-x-Is-Date=false
+              data-x-Tick-Format='%Y'
+              data-svg-Legend_x='82%'
+              data-svg-Legend_y=80
+              data-svg-Chart-Width=84%
+              data-view-Box-Object-Height=500
+              data-view-Box-Object-Width=1200
+              data-line-Stroke-Width=3
+              data-circle-Radius=3
+
+              data-grid-Text-Rotate-Bottom=0
+
+            >
+            </div>
+            <p>
+              <a href="#" id="toggle_fullscreen_chart_7" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
+            </p>
+          </div>
+          <p>&nbsp;</p>
+          <hr/>
+          <!--
+
+-->
 
     </div>
 

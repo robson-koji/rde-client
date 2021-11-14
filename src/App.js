@@ -1,6 +1,7 @@
 import React from 'react';
 import BarChartInterface from './interfaces/BarChartInterface'
 import LineChartInterface from './interfaces/LineChartInterface'
+import AreaChartInterface from './interfaces/AreaChartInterface'
 
 // import useScript from './hooks/useScript';
 // import DropdownMenu from './dropdown'
@@ -13,12 +14,15 @@ function App(props) {
 
   if (props.chart === 'barchart'){
     // return (<></>)
+    // debugger;
     return  <BarChartInterface {...props} />
-  }
-  else{ if (props.chart === 'linechart'){
+  }else if (props.chart === 'linechart'){
      // return (<></>)
     return( <LineChartInterface {...props} /> )
-  }}
+  }else if (props.chart === 'areachart'){
+     return (<></>)
+    return( <AreaChartInterface {...props} /> )
+  }
 
 }
 
