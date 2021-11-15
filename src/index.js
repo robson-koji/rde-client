@@ -14,12 +14,15 @@ let charts = document.getElementsByClassName('charts');
 
       let opts = Object.assign({}, chart.dataset)
       opts.xIsDate === 'true' ? opts.xIsDate = true : opts.xIsDate = false
-
+      opts.normalize === 'true' ? opts.normalize = true : opts.normalize = false
+      opts.displayYAxis === 'true' ? opts.displayYAxis = true : opts.displayYAxis = false
       opts.circleRadius = +opts.circleRadius
       opts.yAxisLabelOffset = +opts.yAxisLabelOffset
       opts.xAxisLabelOffset = +opts.xAxisLabelOffset
       opts.strokeWidth = +opts.strokeWidth
-
+      opts.YGrid = +opts.YGrid
+      opts.YAxis = +opts.YAxis
+      opts.height = +opts.height
 
 
 

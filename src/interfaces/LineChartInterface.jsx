@@ -107,7 +107,7 @@ function LineChartInterface(props) {
 
               circleRadius={props.circleRadius}
           />
-          <SetStyle style={style}/>
+          <SetStyle style={style + ' ' + props.chartClass}/>
 
           <Style
             styles={props.styles}

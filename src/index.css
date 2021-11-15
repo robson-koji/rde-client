@@ -13,6 +13,11 @@ code {
 }
 
 
+
+
+
+
+
 .rd3-barchart-yaxis .rd3-axis-domain{
   display: none;
 }
@@ -284,3 +289,53 @@ text.customflat1{
 .gnbu div{
   background: '#008b8b';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Chart Class */
+.chart_area_1{
+  background-color:#FFFFFF;
+}
+path.chart_area_1{
+  stroke: #FFFFFF ;
+  stroke-width: 0.9
+}
+
+.rd3-legend-text.chart_area_1{
+  fill:darkslategray ;
+}
+
+.rd3-svg-title.chart_area_1{
+  fill:darkslategray ;
+}
+
+.rd3-axis-text-group.chart_area_1{
+  font-size:x-large;
+  fill:darkslategray ;
+}
+
+.rd3-axis-text.chart_area_1{
+  fill:darkslategray ;
+  font-size: 1.3em;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+
+/* .rd3-axis-text.sinebow{
+  font-weight: 600;
+  fill: #c0c0c0	;
+  opacity: 0.8;
+} */

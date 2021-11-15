@@ -93,7 +93,7 @@ function BarChartInterface(props) {
               translateTickLabel_X_X={props.translateTickLabel_X_X}
               translateTickLabel_X_Y={props.translateTickLabel_X_Y}
           />
-          <SetStyle style={style}/>
+          <SetStyle style={style + ' ' + props.chartClass}/>
 
           <Style
             styles={props.styles}

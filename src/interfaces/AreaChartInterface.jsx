@@ -9,8 +9,6 @@ const d3 = require('d3');
 
 
 function AreaChartInterface(props) {
-
-  debugger;
   // Style states
   const [style, setStyle] = useState(props.style);
   const [color, setColor] = useState({});
@@ -59,7 +57,76 @@ function AreaChartInterface(props) {
   // console.log(props.xTickFormat)
   // debugger;
 
-  return ( 'aaaaa'
+  return (
+    <ChartProvider>
+    <div style={{background: "#FFFFFF"}}>
+          <AreaChart
+              chart={props.chart}
+              legend={true}
+              data={areaData}
+              inputDataLayout={props.inputDataLayout}
+              xIsDate={props.xIsDate}
+              grouped={true}
+              width="100%"
+              height="100%"
+              viewBoxObject={viewBoxObject}
+              title={props.titulo}
+              gridHorizontal={true}
+              gridVertical={true}
+              color={color}
+              margins={{ top: 72, right: 20, bottom: 110, left: 110 }}
+              yAxisTickCount={10}
+              xTickFormat={props.xTickFormat}
+
+              gridText={gridText}
+
+
+              xAxisLabelOffset={props.xAxisLabelOffset}
+              yAxisLabelOffset={props.yAxisLabelOffset}
+
+              xAxisLabel={props.xAxisLabel}
+              yAxisLabel={props.yAxisLabel}
+              voronoiStroke={props.voronoiStroke}
+
+              svgLegend={svgLegend}
+
+              background={background}
+
+              svgTitle={{
+                        title:props.titulo,
+                        x:'50%',
+                        y:24,
+                        fontSize:'2.3em',
+                      }}
+              svgChart={svgChart}
+              translateTickLabel_Y_X={props.translateTickLabel_Y_X}
+              translateTickLabel_Y_Y={props.translateTickLabel_Y_Y}
+              translateTickLabel_X_X={props.translateTickLabel_X_X}
+              translateTickLabel_X_Y={props.translateTickLabel_X_Y}
+              strokeWidth={props.lineStrokeWidth}
+
+              circleRadius={props.circleRadius}
+              normalize={props.normalize}
+              displayYAxis={props.displayYAxis}
+
+          />
+          <SetStyle style={style + ' ' +  props.chartClass}/>
+
+          <Style
+            styles={props.styles}
+            style={style}
+            setColor={setColor}
+            setBackground={setBackground}
+          />
+
+          <DropdownMenu
+            styles={props.styles}
+            style={style}
+            setStyle={setStyle}
+          />
+
+    </div>
+    </ChartProvider>
   );
 }
 
