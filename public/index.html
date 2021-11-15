@@ -51,39 +51,78 @@
 
 
 
-                <div id="container_chart_area_1" class="container_chart">
-                  <div id="chart_area_1"
-                    class="charts"
-                    data-chart="areachart"
-                    data-styles="sparse"
-                    data-titulo="Áreas do conhecimento de acordo com a vigência "
-                    data-style="spectral"
-                    data-api = "data/areas_status.csv"
-                    data-input-Data-Layout="csvStandard"
-                    data-x-Axis-Label="Data"
-                    data-y-Axis-Label="Price"
-                    data-x-Axis-Label-Offset=95
-                    data-y-Axis-Label-Offset=70
-                    data-x-Is-Date=true
-                    data-x-Tick-Format='%Y'
-                    data-svg-Legend_x='82%'
-                    data-svg-Legend_y=80
-                    data-svg-Chart-Width=84%
-                    data-view-Box-Object-Height=500
-                    data-view-Box-Object-Width=1200
-                    data-line-Stroke-Width=3
-                    data-circle-Radius=3
+        <div id="container_chart_area_1" class="container_chart">
+          <div id="chart_area_1"
+            class="charts"
+            data-chart="areachart"
+            data-styles="sparse"
+            data-titulo="Distribuição de projetos de acordo com a vigência"
+            data-style="spectral"
+            data-api = "data/projetos_status.csv"
+            data-input-Data-Layout="csvStandard"
+            data-x-Axis-Label-Offset=95
+            data-y-Axis-Label-Offset=70
+            data-x-Is-Date=true
+            data-x-Tick-Format='%Y'
+            data-svg-Legend_x='82%'
+            data-svg-Legend_y=80
+            data-svg-Chart-Width=84%
+            data-view-Box-Object-Height=700
+            data-view-Box-Object-Width=1200
+            data-line-Stroke-Width=3
+            data-circle-Radius=3
+            data-normalize=true
+            data-display-Y-Axis=false
 
-                    data-grid-Text-Rotate-Bottom=0
+            data-grid-Text-Rotate-Bottom=0
+            data-chart-Class='chart_area_1'
 
-                  >
-                  </div>
-                  <p>
-                    <a href="#" id="toggle_fullscreen_chart_area_1" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-                  </p>
-                </div>
-                <p>&nbsp;</p>
-                <hr/>
+          >
+          </div>
+          <p>
+            <a href="#" id="toggle_fullscreen_chart_area_1" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
+          </p>
+        </div>
+        <p>&nbsp;</p>
+        <hr/>
+
+
+
+
+      <div id="container_chart_area_2" class="container_chart">
+        <div id="chart_area_2"
+          class="charts"
+          data-chart="areachart"
+          data-styles="sparse"
+          data-titulo="Distribuição de projetos por Áreas do conhecimento"
+          data-style="spectral"
+          data-api = "data/areas_status.csv"
+          data-input-Data-Layout="csvStandard"
+          data-x-Axis-Label-Offset=95
+          data-y-Axis-Label-Offset=70
+          data-x-Is-Date=true
+          data-x-Tick-Format='%Y'
+          data-svg-Legend_x='82%'
+          data-svg-Legend_y=80
+          data-svg-Chart-Width=84%
+          data-view-Box-Object-Height=700
+          data-view-Box-Object-Width=1200
+          data-line-Stroke-Width=3
+          data-circle-Radius=3
+          data-normalize=true
+          data-display-Y-Axis=false
+
+          data-grid-Text-Rotate-Bottom=0
+          data-chart-Class='chart_area_1'
+
+        >
+        </div>
+        <p>
+          <a href="#" id="toggle_fullscreen_chart_area_2" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
+        </p>
+      </div>
+      <p>&nbsp;</p>
+      <hr/>
 
 
 
@@ -270,12 +309,12 @@
                 class="charts"
                 data-chart="linechart"
                 data-styles="sparse"
-                data-titulo="Projetos de acordo com a vigência "
+                data-titulo="Distribuição de projetos de acordo com a vigência"
                 data-style="spectral"
                 data-api = "data/projetos_status.csv"
                 data-input-Data-Layout="csvStandard"
-                data-x-Axis-Label="Data"
-                data-y-Axis-Label="Price"
+                data-x-Axis-Label="Ano"
+                data-y-Axis-Label="Volume"
                 data-x-Axis-Label-Offset=95
                 data-y-Axis-Label-Offset=70
                 data-x-Is-Date=true
@@ -308,12 +347,12 @@
               class="charts"
               data-chart="barchart"
               data-styles="sparse"
-              data-titulo="Áreas do conhecimento de acordo com a vigência "
+              data-titulo="Distribuição de projetos por Áreas do conhecimento"
               data-style="spectral"
               data-api = "data/areas_status.csv"
               data-input-Data-Layout="csvStandard"
-              data-x-Axis-Label="Data"
-              data-y-Axis-Label="Price"
+              data-x-Axis-Label="Ano"
+              data-y-Axis-Label="Volume"
               data-x-Axis-Label-Offset=95
               data-y-Axis-Label-Offset=70
               data-x-Is-Date=false

@@ -20,7 +20,7 @@ function App(props) {
      // return (<></>)
     return( <LineChartInterface {...props} /> )
   }else if (props.chart === 'areachart'){
-     return (<></>)
+     // return (<></>)
     return( <AreaChartInterface {...props} /> )
   }
 
