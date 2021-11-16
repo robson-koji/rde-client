@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import DropdownMenu from '../dropdown'
 import Style from '../style'
-// import {ChartProvider, SetStyle, BarChart} from '../react-d3'
-
 import {ChartProvider, SetStyle, BarChart} from 'rd3'
+
 
 const d3 = require('d3');
 
@@ -37,7 +36,7 @@ function BarChartInterface(props) {
 
   // Promise.resolve(d3.csv(props.api)).then((aaa) => console.log(aaa))
   //
-  // // console.log(barData)
+  // console.log(props)
   // debugger;
 
   return (
@@ -102,11 +101,11 @@ function BarChartInterface(props) {
             setBackground={setBackground}
           />
 
-          <DropdownMenu
+          { props.dropdownMenu && <DropdownMenu
             styles={props.styles}
             style={style}
             setStyle={setStyle}
-          />
+          />}
 
     </div>
     </ChartProvider>

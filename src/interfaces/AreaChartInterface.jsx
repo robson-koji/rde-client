@@ -74,7 +74,7 @@ function AreaChartInterface(props) {
               gridHorizontal={true}
               gridVertical={true}
               color={color}
-              margins={{ top: 72, right: 20, bottom: 110, left: 110 }}
+              margins={{ top: 72, right: 20, bottom: 0, left: 110 }}
               yAxisTickCount={10}
               xTickFormat={props.xTickFormat}
 
@@ -119,11 +119,11 @@ function AreaChartInterface(props) {
             setBackground={setBackground}
           />
 
-          <DropdownMenu
+          { props.dropdownMenu && <DropdownMenu
             styles={props.styles}
             style={style}
             setStyle={setStyle}
-          />
+          />}
 
     </div>
     </ChartProvider>

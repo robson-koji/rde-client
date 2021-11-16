@@ -116,11 +116,11 @@ function LineChartInterface(props) {
             setBackground={setBackground}
           />
 
-          <DropdownMenu
+          { props.dropdownMenu && <DropdownMenu
             styles={props.styles}
             style={style}
             setStyle={setStyle}
-          />
+          />}
 
     </div>
     </ChartProvider>

@@ -35,11 +35,20 @@
         width:80%;
       }
       .container_chart{
-        padding-top:30px;
+        /* padding-top:30px; */
+      }
+
+      .faFullScreen{
+        display:none
       }
     </style>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" crossorigin="anonymous"/>
+
+
 
 
     <title>React App</title>
@@ -51,86 +60,15 @@
 
 
 
-        <div id="container_chart_area_1" class="container_chart">
-          <div id="chart_area_1"
-            class="charts"
-            data-chart="areachart"
-            data-styles="sparse"
-            data-titulo="Distribuição de projetos de acordo com a vigência"
-            data-style="spectral"
-            data-api = "data/projetos_status.csv"
-            data-input-Data-Layout="csvStandard"
-            data-x-Axis-Label-Offset=95
-            data-y-Axis-Label-Offset=70
-            data-x-Is-Date=true
-            data-x-Tick-Format='%Y'
-            data-svg-Legend_x='82%'
-            data-svg-Legend_y=80
-            data-svg-Chart-Width=84%
-            data-view-Box-Object-Height=700
-            data-view-Box-Object-Width=1200
-            data-line-Stroke-Width=3
-            data-circle-Radius=3
-            data-normalize=true
-            data-display-Y-Axis=false
-
-            data-grid-Text-Rotate-Bottom=0
-            data-chart-Class='chart_area_1'
-
-          >
-          </div>
-          <p>
-            <a href="#" id="toggle_fullscreen_chart_area_1" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-          </p>
-        </div>
-        <p>&nbsp;</p>
-        <hr/>
-
-
-
-
-      <div id="container_chart_area_2" class="container_chart">
-        <div id="chart_area_2"
-          class="charts"
-          data-chart="areachart"
-          data-styles="sparse"
-          data-titulo="Distribuição de projetos por Áreas do conhecimento"
-          data-style="spectral"
-          data-api = "data/areas_status.csv"
-          data-input-Data-Layout="csvStandard"
-          data-x-Axis-Label-Offset=95
-          data-y-Axis-Label-Offset=70
-          data-x-Is-Date=true
-          data-x-Tick-Format='%Y'
-          data-svg-Legend_x='82%'
-          data-svg-Legend_y=80
-          data-svg-Chart-Width=84%
-          data-view-Box-Object-Height=700
-          data-view-Box-Object-Width=1200
-          data-line-Stroke-Width=3
-          data-circle-Radius=3
-          data-normalize=true
-          data-display-Y-Axis=false
-
-          data-grid-Text-Rotate-Bottom=0
-          data-chart-Class='chart_area_1'
-
-        >
-        </div>
-        <p>
-          <a href="#" id="toggle_fullscreen_chart_area_2" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-        </p>
-      </div>
-      <p>&nbsp;</p>
-      <hr/>
-
-
-
-
 
 
 
       <div id="container_chart_1" class="container_chart">
+        <div class="fa-xss faFullScreen bv">
+          <a href="#" id="toggle_fullscreen_chart_1" class="toggle_fullscreen_chart">
+            <i class="fa fa-expand-alt fa-rotate-270"></i>
+          </a>
+        </div>
         <div
           id="chart_1"
           class="charts"
@@ -151,13 +89,10 @@
           data-view-Box-Object-Height="400"
           data-view-Box-Object-Width="1200"
 
-          data-translate-Tick-Label_X_X="8"
-          data-translate-Tick-Label_X_Y="-7"
+          data-translate-Tick-Label_-X_-X="8"
+          data-translate-Tick-Label_-X_-Y="-7"
         >
         </div>
-        <p>
-          <a href="#" id="toggle_fullscreen_chart_1" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-        </p>
       </div>
       <p>&nbsp;</p>
 
@@ -167,6 +102,11 @@
 
 
       <div id="container_chart_3" class="container_chart">
+        <div class="fa-xss faFullScreen pastel1">
+          <a href="#" id="toggle_fullscreen_chart_3" class="toggle_fullscreen_chart">
+            <i class="fa fa-expand-alt fa-rotate-270"></i>
+          </a>
+        </div>
         <div id="chart_3"
           class="charts"
           data-chart="barchart"
@@ -187,39 +127,6 @@
           data-view-Box-Object-Width=1200
         >
         </div>
-        <p>
-          <a href="#" id="toggle_fullscreen_chart_3" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-        </p>
-      </div>
-      <p>&nbsp;</p>
-      <hr/>
-
-
-      <div id="container_chart_2" class="container_chart">
-        <div id="chart_2"
-          class="charts"
-          data-chart="barchart"
-          data-styles="dense"
-          data-titulo="Acidentes de trânsito nas rodovias federais do Brasil"
-          data-style="magma"
-          data-api = "data/acidentes_estado_data.csv"
-          data-input-Data-Layout="csvRows"
-          data-x-Axis-Label="Semanas"
-          data-y-Axis-Label="Número de acidentes"
-          data-x-Axis-Label-Offset=120
-          data-y-Axis-Label-Offset=70
-          data-svg-Legend_x='91%'
-          data-svg-Legend_y=50
-          data-svg-Chart-Width=90%
-          data-view-Box-Object-Height=500
-          data-view-Box-Object-Width=1200
-          data-translate-Tick-Label_X_X=-6
-          data-translate-Tick-Label_X_Y=13
-        >
-        </div>
-        <p>
-          <a href="#" id="toggle_fullscreen_chart_2" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-        </p>
       </div>
       <p>&nbsp;</p>
       <hr/>
@@ -227,6 +134,11 @@
 
 
       <div id="container_chart_4" class="container_chart">
+        <div class="fa-xss faFullScreen sinebow">
+          <a href="#" id="toggle_fullscreen_chart_4" class="toggle_fullscreen_chart">
+            <i class="fa fa-expand-alt fa-rotate-270"></i>
+          </a>
+        </div>
         <div id="chart_4"
           class="charts"
           data-chart="linechart"
@@ -252,51 +164,9 @@
           data-grid-Text-Rotate-Bottom=0
         >
         </div>
-        <p>
-          <a href="#" id="toggle_fullscreen_chart_4" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-        </p>
       </div>
       <p>&nbsp;</p>
       <hr/>
-
-
-
-      <div id="container_chart_5" class="container_chart">
-        <div id="chart_5"
-          class="charts"
-          data-chart="linechart"
-          data-styles="sparse"
-          data-titulo="FIAAMG DATA"
-          data-style="spectral"
-          data-api = "data/stock_data.csv"
-          data-input-Data-Layout="csvStandard"
-          data-x-Axis-Label="Data"
-          data-y-Axis-Label="Price"
-          data-x-Axis-Label-Offset=95
-          data-y-Axis-Label-Offset=70
-          data-x-Is-Date=true
-          data-x-Tick-Format='%b %y'
-          data-svg-Legend_x='89%'
-          data-svg-Legend_y=80
-          data-svg-Chart-Width=89%
-          data-view-Box-Object-Height=500
-          data-view-Box-Object-Width=1200
-          data-line-Stroke-Width=2
-          data-circle-Radius=0
-
-          data-grid-Text-Rotate-Bottom=0
-
-        >
-        </div>
-        <p>
-          <a href="#" id="toggle_fullscreen_chart_5" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-        </p>
-      </div>
-      <p>&nbsp;</p>
-      <hr/>
-
-
-
 
 
 
@@ -305,12 +175,17 @@
 
 
             <div id="container_chart_6" class="container_chart">
+              <div class="fa-xss faFullScreen tableau10">
+                <a href="#" id="toggle_fullscreen_chart_6" class="toggle_fullscreen_chart">
+                  <i class="fa fa-expand-alt fa-rotate-270"></i>
+                </a>
+              </div>
               <div id="chart_6"
                 class="charts"
                 data-chart="linechart"
                 data-styles="sparse"
                 data-titulo="Distribuição de projetos de acordo com a vigência"
-                data-style="spectral"
+                data-style="tableau10"
                 data-api = "data/projetos_status.csv"
                 data-input-Data-Layout="csvStandard"
                 data-x-Axis-Label="Ano"
@@ -331,9 +206,6 @@
 
               >
               </div>
-              <p>
-                <a href="#" id="toggle_fullscreen_chart_6" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-              </p>
             </div>
             <p>&nbsp;</p>
             <hr/>
@@ -343,6 +215,11 @@
 
 
           <div id="container_chart_7" class="container_chart">
+            <div class="fa-xss faFullScreen spectral">
+              <a href="#" id="toggle_fullscreen_chart_7" class="toggle_fullscreen_chart">
+                <i class="fa fa-expand-alt fa-rotate-270"></i>
+              </a>
+            </div>
             <div id="chart_7"
               class="charts"
               data-chart="barchart"
@@ -369,15 +246,174 @@
 
             >
             </div>
-            <p>
-              <a href="#" id="toggle_fullscreen_chart_7" class="toggle_fullscreen_chart">Alternar tela inteira.</a>
-            </p>
           </div>
           <p>&nbsp;</p>
           <hr/>
-          <!--
+
+
+
+
+
+          <div id="container_chart_area_1" class="container_chart">
+            <div class="fa-xss faFullScreen bv">
+              <a href="#" id="toggle_fullscreen_chart_area_1" class="toggle_fullscreen_chart">
+                <i class="fa fa-expand-alt fa-rotate-270"></i>
+              </a>
+            </div>
+
+            <div id="chart_area_1"
+              class="charts"
+              data-chart="areachart"
+              data-styles="sparse"
+              data-titulo="Distribuição de projetos de acordo com a vigência"
+              data-style="bv"
+              data-api = "data/projetos_status.csv"
+              data-input-Data-Layout="csvStandard"
+              data-x-Axis-Label-Offset=95
+              data-y-Axis-Label-Offset=70
+              data-x-Is-Date=true
+              data-x-Tick-Format='%Y'
+              data-svg-Legend_x='79%'
+              data-svg-Legend_y=110
+              data-svg-Chart-Width=81%
+              data-view-Box-Object-Height=700
+              data-view-Box-Object-Width=1200
+              data-line-Stroke-Width=3
+              data-circle-Radius=3
+              data-normalize=true
+              data-display-Y-Axis=false
+
+              data-grid-Text-Rotate-Bottom=0
+              data-chart-Class='chart_area_1'
+
+              data-dropdown-Menu='false'
+
+            >
+            </div>
+          </div>
+          <p>&nbsp;</p>
+          <hr/>
+
+
+
+
+        <div id="container_chart_area_2" class="container_chart">
+          <div class="fa-xss faFullScreen spectral">
+            <a href="#" id="toggle_fullscreen_chart_area_2" class="toggle_fullscreen_chart">
+              <i class="fa fa-expand-alt fa-rotate-270" ></i>
+            </a>
+          </div>
+
+          <div id="chart_area_2"
+            class="charts"
+            data-chart="areachart"
+            data-styles="sparse"
+            data-titulo="Distribuição de projetos por Áreas do conhecimento"
+            data-style="spectral"
+            data-api = "data/areas_status.csv"
+            data-input-Data-Layout="csvStandard"
+            data-x-Axis-Label-Offset=95
+            data-y-Axis-Label-Offset=70
+            data-x-Is-Date=true
+            data-x-Tick-Format='%Y'
+            data-svg-Legend_x='82%'
+            data-svg-Legend_y=110
+            data-svg-Chart-Width=84%
+            data-view-Box-Object-Height=700
+            data-view-Box-Object-Width=1200
+            data-line-Stroke-Width=3
+            data-circle-Radius=3
+            data-normalize=true
+            data-display-Y-Axis=false
+
+            data-grid-Text-Rotate-Bottom=0
+            data-chart-Class='chart_area_1'
+
+          >
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <hr/>
+
+
+<!--
+
+
+        <div id="container_chart_2" class="container_chart">
+          <div class="fa-xss faFullScreen magma">
+            <a href="#" id="toggle_fullscreen_chart_2" class="toggle_fullscreen_chart">
+              <i class="fa fa-expand-alt fa-rotate-270"></i>
+            </a>
+          </div>
+          <div id="chart_2"
+            class="charts"
+            data-chart="barchart"
+            data-styles="dense"
+            data-titulo="Acidentes de trânsito nas rodovias federais do Brasil"
+            data-style="magma"
+            data-api = "data/acidentes_estado_data.csv"
+            data-input-Data-Layout="csvRows"
+            data-x-Axis-Label="Semanas"
+            data-y-Axis-Label="Número de acidentes"
+            data-x-Axis-Label-Offset=120
+            data-y-Axis-Label-Offset=70
+            data-x-Is-Date=false
+            data-svg-Legend_x='91%'
+            data-svg-Legend_y=50
+            data-svg-Chart-Width=90%
+            data-view-Box-Object-Height=500
+            data-view-Box-Object-Width=1200
+            data-translate-Tick-Label_-X_-X=-6
+            data-translate-Tick-Label_-X_-Y=15
+          >
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <hr/>
+
+
+
+        <div id="container_chart_5" class="container_chart">
+          <div class="fa-xss faFullScreen spectral">
+            <a href="#" id="toggle_fullscreen_chart_5" class="toggle_fullscreen_chart">
+              <i class="fa fa-expand-alt fa-rotate-270"></i>
+            </a>
+          </div>
+          <div id="chart_5"
+            class="charts"
+            data-chart="linechart"
+            data-styles="sparse"
+            data-titulo="FIAAMG DATA"
+            data-style="spectral"
+            data-api = "data/stock_data.csv"
+            data-input-Data-Layout="csvStandard"
+            data-x-Axis-Label="Data"
+            data-y-Axis-Label="Price"
+            data-x-Axis-Label-Offset=95
+            data-y-Axis-Label-Offset=70
+            data-x-Is-Date=true
+            data-x-Tick-Format='%b %y'
+            data-svg-Legend_x='89%'
+            data-svg-Legend_y=80
+            data-svg-Chart-Width=89%
+            data-view-Box-Object-Height=500
+            data-view-Box-Object-Width=1200
+            data-line-Stroke-Width=2
+            data-circle-Radius=0
+
+            data-grid-Text-Rotate-Bottom=0
+
+          >
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <hr/>
+
 
 -->
+
+
+
 
     </div>
 
@@ -421,17 +457,32 @@
           element = $('#'+divChart).get(0);
           if (element.requestFullscreen) {
             element.requestFullscreen();
+            element.style.display="grid";
+
           } else if (element.mozRequestFullScreen) {
             element.mozRequestFullScreen();
+            element.style.display="grid";
+
           } else if (element.webkitRequestFullscreen) {
             element.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+            element.style.display="grid";
+
           } else if (element.msRequestFullscreen) {
             element.msRequestFullscreen();
+            element.style.display="grid";
+            
           }
         }
       });
 
     </script>
+
+    <script type="text/javascript">
+    setTimeout(function() {
+      document.querySelectorAll(".faFullScreen").forEach(a=>a.style.display = "block");
+    }, 2000);
+    </script>
+
     <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.14.0/umd/react.development.js" charset="UTF-8"></script>
     <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.14.0/umd/react-dom.development.js" charset="UTF-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.0/prop-types.js"></script>
