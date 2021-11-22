@@ -7,7 +7,8 @@ import {ChartProvider, SetStyle, BarChart} from 'rd3'
 const d3 = require('d3');
 
 
-function BarChartInterface(props) {
+
+const BarChartInterface = (props) => {
   // Style states
   const [style, setStyle] = useState(props.style);
   const [color, setColor] = useState({});
@@ -39,9 +40,11 @@ function BarChartInterface(props) {
   // console.log(props)
   // debugger;
 
+  // <div style={{background: "#FFFFFF", "border-width": "1px", border: "groove"}}>
   return (
     <ChartProvider>
     <div style={{background: "#FFFFFF"}}>
+
           <BarChart
               chart={props.chart}
               legend={true}
@@ -110,6 +113,10 @@ function BarChartInterface(props) {
     </div>
     </ChartProvider>
   );
+}
+
+BarChartInterface.defaultProps = {
+  dropdownMenu:true
 }
 
 export default BarChartInterface;

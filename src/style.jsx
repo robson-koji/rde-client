@@ -5,6 +5,9 @@ const d3 = require('d3');
 
 const bv = [ "#b08beb", "#3ea0dd", "#faa586", "#4661ee", "#8faabb", "#f5a52a", "#23bfaa", "#1bcdd1", "#ec5657" ]
 const customFlat1 = ["#38C172","#E3342F","#F6993F","#FFED4A","#4DC0B5","#3490DC","#9561E2","#F66D9B", "#B8C2CC",]
+// const experimentalColorScaleTextures = ["#a50026","#c7422a","#df7232","#f3a14b","#ffcf7b","#afdbf1","#7ab7e5","#5390d1","#386bb6","#2d4697"]
+const experimentalColorScaleTextures = ["#2d4697","#386bb6","#5390d1","#7ab7e5","#afdbf1","#ffcf7b","#f3a14b","#df7232","#c7422a","#a50026"]
+
 
 const Style = (props) => {
   const style = {magma:
@@ -90,6 +93,12 @@ const Style = (props) => {
                               accessor: 'Ordinal'},
                       svgBkgColor:'#FFFFFF'
                         },
+                    ecst:
+                      {scale:{colors: d3.scaleOrdinal(experimentalColorScaleTextures),
+                              accessor: 'Ordinal'},
+                      svgBkgColor:'#FFFFFF'
+                        },
+
 
 
 

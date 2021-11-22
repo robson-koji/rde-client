@@ -16,7 +16,7 @@ let charts = document.getElementsByClassName('charts');
       opts.xIsDate === 'true' ? opts.xIsDate = true : opts.xIsDate = false
       opts.normalize === 'true' ? opts.normalize = true : opts.normalize = false
       opts.displayYAxis === 'true' ? opts.displayYAxis = true : opts.displayYAxis = false
-      opts.dropdownMenu === 'true' ? opts.dropdownMenu = true : opts.dropdownMenu = false
+      // opts.dropdownMenu === 'true' ? opts.dropdownMenu = true : opts.dropdownMenu = false
 
 
 
