@@ -2,6 +2,8 @@ import React from 'react';
 import BarChartInterface from './interfaces/BarChartInterface'
 import LineChartInterface from './interfaces/LineChartInterface'
 import AreaChartInterface from './interfaces/AreaChartInterface'
+import TreeMapInterface from './interfaces/TreeMapInterface'
+
 
 // import useScript from './hooks/useScript';
 // import DropdownMenu from './dropdown'
@@ -13,7 +15,7 @@ import AreaChartInterface from './interfaces/AreaChartInterface'
 function App(props) {
 
   if (props.chart === 'barchart'){
-    // return (<></>)
+    // return (< ></>)
     // debugger;
     return  <BarChartInterface {...props} />
   }else if (props.chart === 'linechart'){
@@ -22,7 +24,10 @@ function App(props) {
   }else if (props.chart === 'areachart'){
      // return (<></>)
     return( <AreaChartInterface {...props} /> )
-  }
+  }else if (props.chart === 'treemap'){
+   // return (<></>)
+  return( <TreeMapInterface {...props} /> )
+}
 
 }
 

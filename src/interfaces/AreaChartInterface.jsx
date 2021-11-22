@@ -123,7 +123,8 @@ function AreaChartInterface(props) {
             styles={props.styles}
             style={style}
             setStyle={setStyle}
-          />}
+          />
+          }
 
     </div>
     </ChartProvider>

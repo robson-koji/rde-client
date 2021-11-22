@@ -59,6 +59,60 @@
 
 
 
+      <!-- <div className="col-md-6">
+        <Treemap
+          width={450}
+          height={250}
+          title="Treemap"
+          data={treemapData}
+          textColor="#484848"
+          fontColor="12px"
+          hoverAnimation={false}
+        />
+      </div> -->
+
+
+      <div id="container_chart_tree_1" class="container_chart">
+        <div class="fa-xss faFullScreen spectral">
+          <a href="#" id="toggle_fullscreen_chart_tree_1" class="toggle_fullscreen_chart">
+            <i class="fa fa-expand-alt fa-rotate-270" ></i>
+          </a>
+        </div>
+
+        <div id="chart_tree_1"
+          class="charts"
+          data-chart="treemap"
+          data-styles="sparse"
+          
+          data-style="spectral"
+          data-api = "data/areasTreemap.json"
+          data-input-Data-Layout="csvStandard"
+
+
+          data-chart-Class='chart_tree_1'
+
+          data-dropdown-Menu=true
+
+        >
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <hr/>
+
+      <!-- data-view-Box-Object-Height=700
+      data-view-Box-Object-Width=1200
+      data-svg-Chart-Width=90% -->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -116,7 +170,7 @@
           data-api = "data/libs.csv"
           data-input-Data-Layout="csvStandard"
           data-x-Axis-Label="Data"
-          data-y-Axis-Label="Número de edições e revisões"
+          data-y-Axis-Label="Número de edições e revisões"500
           data-x-Axis-Label-Offset=120
           data-y-Axis-Label-Offset=70
           data-x-Is-Date=false
@@ -286,7 +340,7 @@
               data-grid-Text-Rotate-Bottom=0
               data-chart-Class='chart_area_1'
 
-              data-dropdown-Menu='false'
+
 
             >
             </div>
@@ -470,7 +524,7 @@
           } else if (element.msRequestFullscreen) {
             element.msRequestFullscreen();
             element.style.display="grid";
-            
+
           }
         }
       });

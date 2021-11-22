@@ -126,5 +126,8 @@ function LineChartInterface(props) {
     </ChartProvider>
   );
 }
+LineChartInterface.defaultProps = {
+  dropdownMenu:true
+}
 
 export default LineChartInterface;
