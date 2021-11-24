@@ -16,16 +16,87 @@ a.toggle_fullscreen_chart{
   color:inherit;
 }
 
-
+/************/
+/* FULL SCREEN */
 .faFullScreen {
     position: relative;
     top: 23px;
     left: 10px;
     font-size:.7em;
-
 }
 
 
+/************/
+/* TREEMAP */
+.rd3-chart-treemap{
+  display: inline-flex;
+  padding: 3px;
+}
+
+
+.rd3-treemap-parent .d3plus-textBox{
+  fill: #FFF;
+}
+/* TREEMAP - SPECTRAL */
+.rd3-treemap-parent.spectral .d3plus-textBox{
+  fill: #3f1717;
+  /* fill: darkbrown; */
+}
+.rd3-chart-treemap.spectral{
+  background: #3f1717;
+}
+
+.rd3-treemap-cell.spectral{
+  stroke: #3f1717;
+  stroke-width:1px;
+}
+.rd3-chart-treemap{
+  display: inline-flex;
+  padding: 1px;
+}
+
+/* TREEMAP - ECST */
+.rd3-treemap-parent.ecst .d3plus-textBox{
+  fill: #FFF;
+}
+.rd3-chart-treemap.ecst{
+  background: #F5F5F5;
+  padding: 4px;
+}
+
+.rd3-treemap-cell.ecst{
+  stroke:#F5F5F5;
+  stroke-width:6px;
+}
+
+
+
+/* TREEMAP - SINEBOW */
+.rd3-treemap-parent.sinebow .d3plus-textBox{
+  fill: #FFF;
+}
+.rd3-chart-treemap.sinebow{
+  background: midnightblue;
+}
+
+.rd3-treemap-cell.sinebow{
+  stroke:midnightblue;
+  stroke-width:1px;
+}
+
+/* TREEMAP - Pastel1 */
+.rd3-treemap-parent.pastel1 .d3plus-textBox{
+  fill: #808080;
+}
+.rd3-chart-treemap.pastel1{
+  background: #A9A9A9;
+}
+.rd3-treemap-cell.pastel1{
+  stroke:#A9A9A9;
+  stroke-width:2px;
+}
+
+/************/
 .rd3-barchart-yaxis .rd3-axis-domain{
   display: none;
 }

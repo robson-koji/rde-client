@@ -68,7 +68,7 @@ function TreeMapInterface(props) {
     }
     useEffect(() => {
      if(elemRef.current){
-         setWidth(elemRef.current.clientWidth)
+         setWidth(elemRef.current.clientWidth * .85)
      }
    })
 
@@ -81,11 +81,11 @@ function TreeMapInterface(props) {
             // width={500}
             // height={400}
             width={+width}
-            height={windowHeight*.75}
+            height={windowHeight*.55}
             title="Treemap"
             data={treemapData}
             color={color}
-            textColor="#484848"            
+            textColor="#484848"
             fontColor="12px"
             hoverAnimation={true}
             viewBoxObject={viewBoxObject}
