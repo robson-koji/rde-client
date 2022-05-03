@@ -1,0 +1,2182 @@
+[
+    {
+        "label": "Origin",
+        "value": "",
+        "parent": "",
+    },
+    {
+        "label": "Ci\u00eancias Biol\u00f3gicas",
+        "value": 50282,
+        "parent": "Origin"
+    },
+    {
+        "label": "Ci\u00eancias Exatas e da Terra",
+        "value": 44460,
+        "parent": "Origin"
+    },
+    {
+        "label": "Ci\u00eancias da Sa\u00fade",
+        "value": 42403,
+        "parent": "Origin"
+    },
+    {
+        "label": "Ci\u00eancias Agr\u00e1rias",
+        "value": 32061,
+        "parent": "Origin"
+    },
+    {
+        "label": "Engenharias",
+        "value": 30494,
+        "parent": "Origin"
+    },
+    {
+        "label": "Ci\u00eancias Humanas",
+        "value": 25775,
+        "parent": "Origin"
+    },
+    {
+        "label": "Medicina",
+        "value": 17881,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Qu\u00edmica",
+        "value": 12437,
+        "parent": "Ci\u00eancias Exatas e da Terra"
+    },
+    {
+        "label": "Ci\u00eancias Sociais Aplicadas",
+        "value": 11743,
+        "parent": "Origin"
+    },
+    {
+        "label": "F\u00edsica",
+        "value": 10717,
+        "parent": "Ci\u00eancias Exatas e da Terra"
+    },
+    {
+        "label": "Lingu\u00edstica, Letras e Artes",
+        "value": 10061,
+        "parent": "Origin"
+    },
+    {
+        "label": "Odontologia",
+        "value": 9630,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Medicina Veterin\u00e1ria",
+        "value": 9356,
+        "parent": "Ci\u00eancias Agr\u00e1rias"
+    },
+    {
+        "label": "Agronomia",
+        "value": 9006,
+        "parent": "Ci\u00eancias Agr\u00e1rias"
+    },
+    {
+        "label": "Bioqu\u00edmica",
+        "value": 7929,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Cl\u00ednica M\u00e9dica",
+        "value": 6919,
+        "parent": "Medicina"
+    },
+    {
+        "label": "Gen\u00e9tica",
+        "value": 6622,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Ci\u00eancia da Computa\u00e7\u00e3o",
+        "value": 6352,
+        "parent": "Ci\u00eancias Exatas e da Terra"
+    },
+    {
+        "label": "Engenharia El\u00e9trica",
+        "value": 5929,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Engenharia de Materiais e Metal\u00fargica",
+        "value": 5875,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Geoci\u00eancias",
+        "value": 5853,
+        "parent": "Ci\u00eancias Exatas e da Terra"
+    },
+    {
+        "label": "Fisiologia",
+        "value": 5320,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Matem\u00e1tica",
+        "value": 5138,
+        "parent": "Ci\u00eancias Exatas e da Terra"
+    },
+    {
+        "label": "F\u00edsica da Mat\u00e9ria Condensada",
+        "value": 5099,
+        "parent": "F\u00edsica"
+    },
+    {
+        "label": "Zootecnia",
+        "value": 4988,
+        "parent": "Ci\u00eancias Agr\u00e1rias"
+    },
+    {
+        "label": "Educa\u00e7\u00e3o",
+        "value": 4960,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Ci\u00eancia e Tecnologia de Alimentos",
+        "value": 4924,
+        "parent": "Ci\u00eancias Agr\u00e1rias"
+    },
+    {
+        "label": "Psicologia",
+        "value": 4787,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Hist\u00f3ria",
+        "value": 4568,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Microbiologia",
+        "value": 4565,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Farmacologia",
+        "value": 4101,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Engenharia Mec\u00e2nica",
+        "value": 3875,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Imunologia",
+        "value": 3865,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Biologia Molecular",
+        "value": 3826,
+        "parent": "Bioqu\u00edmica"
+    },
+    {
+        "label": "Letras",
+        "value": 3784,
+        "parent": "Lingu\u00edstica, Letras e Artes"
+    },
+    {
+        "label": "Zoologia",
+        "value": 3776,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Ecologia",
+        "value": 3623,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Engenharia Civil",
+        "value": 3441,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Morfologia",
+        "value": 3437,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Artes",
+        "value": 3431,
+        "parent": "Lingu\u00edstica, Letras e Artes"
+    },
+    {
+        "label": "Qu\u00edmica Org\u00e2nica",
+        "value": 3428,
+        "parent": "Qu\u00edmica"
+    },
+    {
+        "label": "Engenharia Qu\u00edmica",
+        "value": 3392,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Fisiologia de \u00d3rg\u00e3os e Sistemas",
+        "value": 3369,
+        "parent": "Fisiologia"
+    },
+    {
+        "label": "Materiais N\u00e3o-met\u00e1licos",
+        "value": 3268,
+        "parent": "Engenharia de Materiais e Metal\u00fargica"
+    },
+    {
+        "label": "F\u00edsico-qu\u00edmica",
+        "value": 3119,
+        "parent": "Qu\u00edmica"
+    },
+    {
+        "label": "Interdisciplinar",
+        "value": 2922,
+        "parent": "Origin"
+    },
+    {
+        "label": "Fitotecnia",
+        "value": 2882,
+        "parent": "Agronomia"
+    },
+    {
+        "label": "Sa\u00fade Coletiva",
+        "value": 2882,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Microbiologia Aplicada",
+        "value": 2871,
+        "parent": "Microbiologia"
+    },
+    {
+        "label": "Lingu\u00edstica",
+        "value": 2846,
+        "parent": "Lingu\u00edstica, Letras e Artes"
+    },
+    {
+        "label": "Qu\u00edmica Anal\u00edtica",
+        "value": 2821,
+        "parent": "Qu\u00edmica"
+    },
+    {
+        "label": "Arquitetura e Urbanismo",
+        "value": 2816,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Cl\u00ednica e Cirurgia Animal",
+        "value": 2727,
+        "parent": "Medicina Veterin\u00e1ria"
+    },
+    {
+        "label": "Sociologia",
+        "value": 2716,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Farm\u00e1cia",
+        "value": 2652,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Bot\u00e2nica",
+        "value": 2650,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Sistemas de Computa\u00e7\u00e3o",
+        "value": 2555,
+        "parent": "Ci\u00eancia da Computa\u00e7\u00e3o"
+    },
+    {
+        "label": "Filosofia",
+        "value": 2392,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Geologia",
+        "value": 2324,
+        "parent": "Geoci\u00eancias"
+    },
+    {
+        "label": "Fitossanidade",
+        "value": 2304,
+        "parent": "Agronomia"
+    },
+    {
+        "label": "Fisioterapia e Terapia Ocupacional",
+        "value": 2295,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Metodologia e T\u00e9cnicas da Computa\u00e7\u00e3o",
+        "value": 2276,
+        "parent": "Ci\u00eancia da Computa\u00e7\u00e3o"
+    },
+    {
+        "label": "Enfermagem",
+        "value": 2177,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Ci\u00eancia do Solo",
+        "value": 2164,
+        "parent": "Agronomia"
+    },
+    {
+        "label": "Economia",
+        "value": 2154,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Cirurgia",
+        "value": 2154,
+        "parent": "Medicina"
+    },
+    {
+        "label": "Reprodu\u00e7\u00e3o Animal",
+        "value": 2140,
+        "parent": "Medicina Veterin\u00e1ria"
+    },
+    {
+        "label": "Hist\u00f3ria do Brasil",
+        "value": 2101,
+        "parent": "Hist\u00f3ria"
+    },
+    {
+        "label": "Engenharia Sanit\u00e1ria",
+        "value": 2044,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Ci\u00eancia Pol\u00edtica",
+        "value": 2025,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Nutri\u00e7\u00e3o e Alimenta\u00e7\u00e3o Animal",
+        "value": 1961,
+        "parent": "Zootecnia"
+    },
+    {
+        "label": "Antropologia",
+        "value": 1958,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Medicina Veterin\u00e1ria Preventiva",
+        "value": 1940,
+        "parent": "Medicina Veterin\u00e1ria"
+    },
+    {
+        "label": "Materiais Odontol\u00f3gicos",
+        "value": 1874,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Astronomia",
+        "value": 1850,
+        "parent": "Ci\u00eancias Exatas e da Terra"
+    },
+    {
+        "label": "Gen\u00e9tica Molecular e de Microorganismos",
+        "value": 1840,
+        "parent": "Gen\u00e9tica"
+    },
+    {
+        "label": "Qu\u00edmica Inorg\u00e2nica",
+        "value": 1834,
+        "parent": "Qu\u00edmica"
+    },
+    {
+        "label": "F\u00edsica das Part\u00edculas Elementares e Campos",
+        "value": 1827,
+        "parent": "F\u00edsica"
+    },
+    {
+        "label": "Ci\u00eancia de Alimentos",
+        "value": 1826,
+        "parent": "Ci\u00eancia e Tecnologia de Alimentos"
+    },
+    {
+        "label": "Sa\u00fade Materno-infantil",
+        "value": 1805,
+        "parent": "Medicina"
+    },
+    {
+        "label": "Biof\u00edsica",
+        "value": 1792,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Geografia",
+        "value": 1747,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Engenharia Biom\u00e9dica",
+        "value": 1746,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Gen\u00e9tica Humana e M\u00e9dica",
+        "value": 1737,
+        "parent": "Gen\u00e9tica"
+    },
+    {
+        "label": "Fonoaudiologia",
+        "value": 1737,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Parasitologia",
+        "value": 1730,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Anatomia Patol\u00f3gica e Patologia Cl\u00ednica",
+        "value": 1730,
+        "parent": "Medicina"
+    },
+    {
+        "label": "Outras Sociologias Espec\u00edficas",
+        "value": 1678,
+        "parent": "Sociologia"
+    },
+    {
+        "label": "T\u00f3picos Espec\u00edficos de Educa\u00e7\u00e3o",
+        "value": 1677,
+        "parent": "Educa\u00e7\u00e3o"
+    },
+    {
+        "label": "Engenharia de Produ\u00e7\u00e3o",
+        "value": 1656,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Nutri\u00e7\u00e3o",
+        "value": 1655,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Comunica\u00e7\u00e3o",
+        "value": 1635,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Cl\u00ednica Odontol\u00f3gica",
+        "value": 1586,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Taxonomia dos Grupos Recentes",
+        "value": 1496,
+        "parent": "Zoologia"
+    },
+    {
+        "label": "Imunologia Celular",
+        "value": 1495,
+        "parent": "Imunologia"
+    },
+    {
+        "label": "Educa\u00e7\u00e3o F\u00edsica",
+        "value": 1494,
+        "parent": "Ci\u00eancias da Sa\u00fade"
+    },
+    {
+        "label": "Teoria e An\u00e1lise Ling\u00fc\u00edstica",
+        "value": 1456,
+        "parent": "Lingu\u00edstica"
+    },
+    {
+        "label": "Engenharia Agr\u00edcola",
+        "value": 1445,
+        "parent": "Ci\u00eancias Agr\u00e1rias"
+    },
+    {
+        "label": "Patologia Animal",
+        "value": 1443,
+        "parent": "Medicina Veterin\u00e1ria"
+    },
+    {
+        "label": "Direito",
+        "value": 1440,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Ecologia de Ecossistemas",
+        "value": 1432,
+        "parent": "Ecologia"
+    },
+    {
+        "label": "Sa\u00fade P\u00fablica",
+        "value": 1410,
+        "parent": "Sa\u00fade Coletiva"
+    },
+    {
+        "label": "Citologia e Biologia Celular",
+        "value": 1399,
+        "parent": "Morfologia"
+    },
+    {
+        "label": "Gen\u00e9tica Animal",
+        "value": 1366,
+        "parent": "Gen\u00e9tica"
+    },
+    {
+        "label": "Geometria e Topologia",
+        "value": 1362,
+        "parent": "Matem\u00e1tica"
+    },
+    {
+        "label": "Estruturas",
+        "value": 1348,
+        "parent": "Engenharia Civil"
+    },
+    {
+        "label": "Matem\u00e1tica Aplicada",
+        "value": 1331,
+        "parent": "Matem\u00e1tica"
+    },
+    {
+        "label": "Geografia Humana",
+        "value": 1313,
+        "parent": "Geografia"
+    },
+    {
+        "label": "Processos Industriais de Engenharia Qu\u00edmica",
+        "value": 1313,
+        "parent": "Engenharia Qu\u00edmica"
+    },
+    {
+        "label": "Recursos Pesqueiros e Engenharia de Pesca",
+        "value": 1294,
+        "parent": "Ci\u00eancias Agr\u00e1rias"
+    },
+    {
+        "label": "Tecnologia de Alimentos",
+        "value": 1291,
+        "parent": "Ci\u00eancia e Tecnologia de Alimentos"
+    },
+    {
+        "label": "Engenharia Aeroespacial",
+        "value": 1279,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Eletr\u00f4nica Industrial, Sistemas e Controles Eletr\u00f4nicos",
+        "value": 1270,
+        "parent": "Engenharia El\u00e9trica"
+    },
+    {
+        "label": "Telecomunica\u00e7\u00f5es",
+        "value": 1253,
+        "parent": "Engenharia El\u00e9trica"
+    },
+    {
+        "label": "An\u00e1lise",
+        "value": 1249,
+        "parent": "Matem\u00e1tica"
+    },
+    {
+        "label": "Fundamentos de Arquitetura e Urbanismo",
+        "value": 1247,
+        "parent": "Arquitetura e Urbanismo"
+    },
+    {
+        "label": "Produ\u00e7\u00e3o Animal",
+        "value": 1224,
+        "parent": "Zootecnia"
+    },
+    {
+        "label": "Sistemas El\u00e9tricos de Pot\u00eancia",
+        "value": 1223,
+        "parent": "Engenharia El\u00e9trica"
+    },
+    {
+        "label": "Qu\u00edmica de Macromol\u00e9culas",
+        "value": 1206,
+        "parent": "Bioqu\u00edmica"
+    },
+    {
+        "label": "Administra\u00e7\u00e3o",
+        "value": 1195,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Metalurgia F\u00edsica",
+        "value": 1190,
+        "parent": "Engenharia de Materiais e Metal\u00fargica"
+    },
+    {
+        "label": "Ecologia Aplicada",
+        "value": 1189,
+        "parent": "Ecologia"
+    },
+    {
+        "label": "Hist\u00f3ria da Filosofia",
+        "value": 1154,
+        "parent": "Filosofia"
+    },
+    {
+        "label": "Psiquiatria",
+        "value": 1128,
+        "parent": "Medicina"
+    },
+    {
+        "label": "Ensino-aprendizagem",
+        "value": 1115,
+        "parent": "Educa\u00e7\u00e3o"
+    },
+    {
+        "label": "Probabilidade e Estat\u00edstica",
+        "value": 1106,
+        "parent": "Ci\u00eancias Exatas e da Terra"
+    },
+    {
+        "label": "Biof\u00edsica Molecular",
+        "value": 1082,
+        "parent": "Biof\u00edsica"
+    },
+    {
+        "label": "M\u00fasica",
+        "value": 1059,
+        "parent": "Artes"
+    },
+    {
+        "label": "Recursos Florestais e Engenharia Florestal",
+        "value": 1048,
+        "parent": "Ci\u00eancias Agr\u00e1rias"
+    },
+    {
+        "label": "Imunologia Aplicada",
+        "value": 1045,
+        "parent": "Imunologia"
+    },
+    {
+        "label": "Engenharia de Alimentos",
+        "value": 1036,
+        "parent": "Ci\u00eancia e Tecnologia de Alimentos"
+    },
+    {
+        "label": "Periodontia",
+        "value": 1034,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Aquicultura",
+        "value": 1028,
+        "parent": "Recursos Pesqueiros e Engenharia de Pesca"
+    },
+    {
+        "label": "Geof\u00edsica",
+        "value": 1018,
+        "parent": "Geoci\u00eancias"
+    },
+    {
+        "label": "Neuropsicofarmacologia",
+        "value": 1011,
+        "parent": "Farmacologia"
+    },
+    {
+        "label": "Oceanografia",
+        "value": 1007,
+        "parent": "Ci\u00eancias Exatas e da Terra"
+    },
+    {
+        "label": "Biologia e Fisiologia dos Microorganismos",
+        "value": 983,
+        "parent": "Microbiologia"
+    },
+    {
+        "label": "Tratamentos de \u00c1guas de Abastecimento e Residu\u00e1rias",
+        "value": 972,
+        "parent": "Engenharia Sanit\u00e1ria"
+    },
+    {
+        "label": "Protozoologia de Parasitos",
+        "value": 919,
+        "parent": "Parasitologia"
+    },
+    {
+        "label": "F\u00edsica Nuclear",
+        "value": 899,
+        "parent": "F\u00edsica"
+    },
+    {
+        "label": "F\u00edsica Geral",
+        "value": 890,
+        "parent": "F\u00edsica"
+    },
+    {
+        "label": "Ci\u00eancia da Informa\u00e7\u00e3o",
+        "value": 883,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Biologia Geral",
+        "value": 871,
+        "parent": "Ci\u00eancias Biol\u00f3gicas"
+    },
+    {
+        "label": "Tratamento e Preven\u00e7\u00e3o Psicol\u00f3gica",
+        "value": 869,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "Constru\u00e7\u00e3o Civil",
+        "value": 862,
+        "parent": "Engenharia Civil"
+    },
+    {
+        "label": "Epidemiologia",
+        "value": 861,
+        "parent": "Sa\u00fade Coletiva"
+    },
+    {
+        "label": "Metabolismo e Bioenerg\u00e9tica",
+        "value": 854,
+        "parent": "Bioqu\u00edmica"
+    },
+    {
+        "label": "Gen\u00e9tica Vegetal",
+        "value": 849,
+        "parent": "Gen\u00e9tica"
+    },
+    {
+        "label": "Gen\u00e9tica e Melhoramento dos Animais Dom\u00e9sticos",
+        "value": 804,
+        "parent": "Zootecnia"
+    },
+    {
+        "label": "Endodontia",
+        "value": 800,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Mec\u00e2nica dos S\u00f3lidos",
+        "value": 796,
+        "parent": "Engenharia Mec\u00e2nica"
+    },
+    {
+        "label": "Fisiologia Vegetal",
+        "value": 785,
+        "parent": "Bot\u00e2nica"
+    },
+    {
+        "label": "Farmacologia Bioqu\u00edmica e Molecular",
+        "value": 783,
+        "parent": "Farmacologia"
+    },
+    {
+        "label": "\u00c1lgebra",
+        "value": 782,
+        "parent": "Matem\u00e1tica"
+    },
+    {
+        "label": "Literatura Brasileira",
+        "value": 756,
+        "parent": "Letras"
+    },
+    {
+        "label": "Meteorologia",
+        "value": 755,
+        "parent": "Geoci\u00eancias"
+    },
+    {
+        "label": "Farmacologia Geral",
+        "value": 747,
+        "parent": "Farmacologia"
+    },
+    {
+        "label": "Fisiologia Geral",
+        "value": 737,
+        "parent": "Fisiologia"
+    },
+    {
+        "label": "F\u00edsica At\u00f4mica e Molecular",
+        "value": 735,
+        "parent": "F\u00edsica"
+    },
+    {
+        "label": "Histologia",
+        "value": 731,
+        "parent": "Morfologia"
+    },
+    {
+        "label": "Tecnologia de Arquitetura e Urbanismo",
+        "value": 729,
+        "parent": "Arquitetura e Urbanismo"
+    },
+    {
+        "label": "Tecnologia Qu\u00edmica",
+        "value": 727,
+        "parent": "Engenharia Qu\u00edmica"
+    },
+    {
+        "label": "Psicologia do Desenvolvimento Humano",
+        "value": 726,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "Processos de Fabrica\u00e7\u00e3o",
+        "value": 725,
+        "parent": "Engenharia Mec\u00e2nica"
+    },
+    {
+        "label": "Taxonomia Vegetal",
+        "value": 714,
+        "parent": "Bot\u00e2nica"
+    },
+    {
+        "label": "Bioengenharia",
+        "value": 713,
+        "parent": "Engenharia Biom\u00e9dica"
+    },
+    {
+        "label": "Planejamento Urbano e Regional",
+        "value": 706,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Geografia F\u00edsica",
+        "value": 693,
+        "parent": "Geoci\u00eancias"
+    },
+    {
+        "label": "Fen\u00f4menos de Transportes",
+        "value": 690,
+        "parent": "Engenharia Mec\u00e2nica"
+    },
+    {
+        "label": "Fundamentos da Educa\u00e7\u00e3o",
+        "value": 688,
+        "parent": "Educa\u00e7\u00e3o"
+    },
+    {
+        "label": "Psicologia Experimental",
+        "value": 669,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "Engenharia T\u00e9rmica",
+        "value": 662,
+        "parent": "Engenharia Mec\u00e2nica"
+    },
+    {
+        "label": "Pesquisa Operacional",
+        "value": 660,
+        "parent": "Engenharia de Produ\u00e7\u00e3o"
+    },
+    {
+        "label": "Odontopediatria",
+        "value": 630,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Teatro",
+        "value": 628,
+        "parent": "Artes"
+    },
+    {
+        "label": "Morfologia dos Grupos Recentes",
+        "value": 620,
+        "parent": "Zoologia"
+    },
+    {
+        "label": "Medidas El\u00e9tricas, Magn\u00e9ticas e Eletr\u00f4nicas, Instrumenta\u00e7\u00e3o",
+        "value": 620,
+        "parent": "Engenharia El\u00e9trica"
+    },
+    {
+        "label": "Farmacotecnia",
+        "value": 619,
+        "parent": "Farm\u00e1cia"
+    },
+    {
+        "label": "Hist\u00f3ria Moderna e Contempor\u00e2nea",
+        "value": 610,
+        "parent": "Hist\u00f3ria"
+    },
+    {
+        "label": "Anatomia",
+        "value": 609,
+        "parent": "Morfologia"
+    },
+    {
+        "label": "Pol\u00edtica Internacional",
+        "value": 604,
+        "parent": "Ci\u00eancia Pol\u00edtica"
+    },
+    {
+        "label": "Pastagens e Forragicultura",
+        "value": 601,
+        "parent": "Zootecnia"
+    },
+    {
+        "label": "Lingu\u00edstica Aplicada",
+        "value": 598,
+        "parent": "Lingu\u00edstica"
+    },
+    {
+        "label": "Enzimologia",
+        "value": 597,
+        "parent": "Bioqu\u00edmica"
+    },
+    {
+        "label": "Odontologia Social e Preventiva",
+        "value": 588,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Psicologia Social",
+        "value": 578,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "Bioqu\u00edmica da Nutri\u00e7\u00e3o",
+        "value": 574,
+        "parent": "Nutri\u00e7\u00e3o"
+    },
+    {
+        "label": "Teoria Liter\u00e1ria",
+        "value": 565,
+        "parent": "Letras"
+    },
+    {
+        "label": "Direito P\u00fablico",
+        "value": 564,
+        "parent": "Direito"
+    },
+    {
+        "label": "Cirurgia Buco-maxilo-facial",
+        "value": 560,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Geot\u00e9cnica",
+        "value": 559,
+        "parent": "Engenharia Civil"
+    },
+    {
+        "label": "Administra\u00e7\u00e3o de Empresas",
+        "value": 558,
+        "parent": "Administra\u00e7\u00e3o"
+    },
+    {
+        "label": "Literaturas Estrangeiras Modernas",
+        "value": 554,
+        "parent": "Letras"
+    },
+    {
+        "label": "Enfermagem M\u00e9dico-cir\u00fargica",
+        "value": 543,
+        "parent": "Enfermagem"
+    },
+    {
+        "label": "Engenharia de \u00c1gua e Solo",
+        "value": 535,
+        "parent": "Engenharia Agr\u00edcola"
+    },
+    {
+        "label": "Arqueologia",
+        "value": 522,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Saneamento Ambiental",
+        "value": 519,
+        "parent": "Engenharia Sanit\u00e1ria"
+    },
+    {
+        "label": "Antropologia Urbana",
+        "value": 517,
+        "parent": "Antropologia"
+    },
+    {
+        "label": "Engenharia M\u00e9dica",
+        "value": 510,
+        "parent": "Engenharia Biom\u00e9dica"
+    },
+    {
+        "label": "Opera\u00e7\u00f5es Industriais e Equipamentos para Engenharia Qu\u00edmica",
+        "value": 508,
+        "parent": "Engenharia Qu\u00edmica"
+    },
+    {
+        "label": "Astrof\u00edsica Estelar",
+        "value": 502,
+        "parent": "Astronomia"
+    },
+    {
+        "label": "Astrof\u00edsica Extragal\u00e1ctica",
+        "value": 488,
+        "parent": "Astronomia"
+    },
+    {
+        "label": "Comportamento Animal",
+        "value": 484,
+        "parent": "Zoologia"
+    },
+    {
+        "label": "Fundamentos e Cr\u00edtica das Artes",
+        "value": 483,
+        "parent": "Artes"
+    },
+    {
+        "label": "An\u00e1lise Nutricional de Popula\u00e7\u00e3o",
+        "value": 479,
+        "parent": "Nutri\u00e7\u00e3o"
+    },
+    {
+        "label": "Economias Agr\u00e1ria e dos Recursos Naturais",
+        "value": 475,
+        "parent": "Economia"
+    },
+    {
+        "label": "Circuitos El\u00e9tricos, Magn\u00e9ticos e Eletr\u00f4nicos",
+        "value": 475,
+        "parent": "Engenharia El\u00e9trica"
+    },
+    {
+        "label": "Bioqu\u00edmica de Microorganismos",
+        "value": 468,
+        "parent": "Bioqu\u00edmica"
+    },
+    {
+        "label": "Fundamentos e Medidas da Psicologia",
+        "value": 468,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "Fisiologia Comparada",
+        "value": 464,
+        "parent": "Fisiologia"
+    },
+    {
+        "label": "Engenharia Nuclear",
+        "value": 458,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "F\u00edsica dos Flu\u00eddos, F\u00edsica de Plasmas e Descargas El\u00e9tricas",
+        "value": 448,
+        "parent": "F\u00edsica"
+    },
+    {
+        "label": "Projetos de M\u00e1quinas",
+        "value": 443,
+        "parent": "Engenharia Mec\u00e2nica"
+    },
+    {
+        "label": "Morfologia Vegetal",
+        "value": 441,
+        "parent": "Bot\u00e2nica"
+    },
+    {
+        "label": "Biblioteconomia",
+        "value": 441,
+        "parent": "Ci\u00eancia da Informa\u00e7\u00e3o"
+    },
+    {
+        "label": "Jornalismo e Editora\u00e7\u00e3o",
+        "value": 439,
+        "parent": "Comunica\u00e7\u00e3o"
+    },
+    {
+        "label": "Hist\u00f3ria Antiga e Medieval",
+        "value": 437,
+        "parent": "Hist\u00f3ria"
+    },
+    {
+        "label": "Enfermagem de Sa\u00fade P\u00fablica",
+        "value": 437,
+        "parent": "Enfermagem"
+    },
+    {
+        "label": "Radiologia M\u00e9dica",
+        "value": 423,
+        "parent": "Medicina"
+    },
+    {
+        "label": "Ger\u00eancia de Produ\u00e7\u00e3o",
+        "value": 421,
+        "parent": "Engenharia de Produ\u00e7\u00e3o"
+    },
+    {
+        "label": "An\u00e1lise Toxicol\u00f3gica",
+        "value": 420,
+        "parent": "Farm\u00e1cia"
+    },
+    {
+        "label": "Entomologia e Malacologia de Parasitos e Vetores",
+        "value": 417,
+        "parent": "Parasitologia"
+    },
+    {
+        "label": "Mutag\u00eanese",
+        "value": 407,
+        "parent": "Gen\u00e9tica"
+    },
+    {
+        "label": "Pol\u00edticas P\u00fablicas",
+        "value": 404,
+        "parent": "Ci\u00eancia Pol\u00edtica"
+    },
+    {
+        "label": "Toxicologia",
+        "value": 400,
+        "parent": "Farmacologia"
+    },
+    {
+        "label": "Cinema",
+        "value": 393,
+        "parent": "Artes"
+    },
+    {
+        "label": "Oceanografia Biol\u00f3gica",
+        "value": 392,
+        "parent": "Oceanografia"
+    },
+    {
+        "label": "Hist\u00f3ria da Am\u00e9rica",
+        "value": 387,
+        "parent": "Hist\u00f3ria"
+    },
+    {
+        "label": "Zoologia Aplicada",
+        "value": 385,
+        "parent": "Zoologia"
+    },
+    {
+        "label": "Hist\u00f3ria das Ci\u00eancias",
+        "value": 383,
+        "parent": "Hist\u00f3ria"
+    },
+    {
+        "label": "Outras Literaturas Vern\u00e1culas",
+        "value": 383,
+        "parent": "Letras"
+    },
+    {
+        "label": "Materiais El\u00e9tricos",
+        "value": 373,
+        "parent": "Engenharia El\u00e9trica"
+    },
+    {
+        "label": "Literatura Comparada",
+        "value": 370,
+        "parent": "Letras"
+    },
+    {
+        "label": "Probabilidade e Estat\u00edstica Aplicadas",
+        "value": 368,
+        "parent": "Probabilidade e Estat\u00edstica"
+    },
+    {
+        "label": "Etnologia Ind\u00edgena",
+        "value": 365,
+        "parent": "Antropologia"
+    },
+    {
+        "label": "Teoria da Computa\u00e7\u00e3o",
+        "value": 364,
+        "parent": "Ci\u00eancia da Computa\u00e7\u00e3o"
+    },
+    {
+        "label": "Estat\u00edstica",
+        "value": 356,
+        "parent": "Probabilidade e Estat\u00edstica"
+    },
+    {
+        "label": "Epistemologia",
+        "value": 355,
+        "parent": "Filosofia"
+    },
+    {
+        "label": "Metalurgia de Transforma\u00e7\u00e3o",
+        "value": 353,
+        "parent": "Engenharia de Materiais e Metal\u00fargica"
+    },
+    {
+        "label": "Teoria da Comunica\u00e7\u00e3o",
+        "value": 344,
+        "parent": "Comunica\u00e7\u00e3o"
+    },
+    {
+        "label": "An\u00e1lise e Controle de Medicamentos",
+        "value": 338,
+        "parent": "Farm\u00e1cia"
+    },
+    {
+        "label": "Direito Privado",
+        "value": 334,
+        "parent": "Direito"
+    },
+    {
+        "label": "Literaturas Cl\u00e1ssicas",
+        "value": 332,
+        "parent": "Letras"
+    },
+    {
+        "label": "Farmacologia Cardiorenal",
+        "value": 328,
+        "parent": "Farmacologia"
+    },
+    {
+        "label": "Geod\u00e9sia",
+        "value": 318,
+        "parent": "Geoci\u00eancias"
+    },
+    {
+        "label": "Projeto de Arquitetura e Urbanismo",
+        "value": 318,
+        "parent": "Arquitetura e Urbanismo"
+    },
+    {
+        "label": "Recursos H\u00eddricos",
+        "value": 318,
+        "parent": "Engenharia Sanit\u00e1ria"
+    },
+    {
+        "label": "Engenharia Naval e Oce\u00e2nica",
+        "value": 311,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Ecologia Te\u00f3rica",
+        "value": 310,
+        "parent": "Ecologia"
+    },
+    {
+        "label": "Imunoqu\u00edmica",
+        "value": 310,
+        "parent": "Imunologia"
+    },
+    {
+        "label": "Farmacognosia",
+        "value": 306,
+        "parent": "Farm\u00e1cia"
+    },
+    {
+        "label": "Bot\u00e2nica Aplicada",
+        "value": 303,
+        "parent": "Bot\u00e2nica"
+    },
+    {
+        "label": "Engenharia de Transportes",
+        "value": 292,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Artes Pl\u00e1sticas",
+        "value": 292,
+        "parent": "Artes"
+    },
+    {
+        "label": "Economia Industrial",
+        "value": 290,
+        "parent": "Economia"
+    },
+    {
+        "label": "Psicologia Fisiol\u00f3gica",
+        "value": 289,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "M\u00e9todos e T\u00e9cnicas do Planejamento Urbano e Regional",
+        "value": 285,
+        "parent": "Planejamento Urbano e Regional"
+    },
+    {
+        "label": "Engenharia Hidr\u00e1ulica",
+        "value": 283,
+        "parent": "Engenharia Civil"
+    },
+    {
+        "label": "Aplica\u00e7\u00f5es de Radiois\u00f3topos",
+        "value": 283,
+        "parent": "Engenharia Nuclear"
+    },
+    {
+        "label": "Estado e Governo",
+        "value": 279,
+        "parent": "Ci\u00eancia Pol\u00edtica"
+    },
+    {
+        "label": "Imunogen\u00e9tica",
+        "value": 271,
+        "parent": "Imunologia"
+    },
+    {
+        "label": "Desenho Industrial",
+        "value": 270,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Comportamento Pol\u00edtico",
+        "value": 266,
+        "parent": "Ci\u00eancia Pol\u00edtica"
+    },
+    {
+        "label": "Radiologia e Fotobiologia",
+        "value": 259,
+        "parent": "Biof\u00edsica"
+    },
+    {
+        "label": "Probabilidade",
+        "value": 252,
+        "parent": "Probabilidade e Estat\u00edstica"
+    },
+    {
+        "label": "Constru\u00e7\u00f5es Rurais e Ambi\u00eancia",
+        "value": 248,
+        "parent": "Engenharia Agr\u00edcola"
+    },
+    {
+        "label": "M\u00e1quinas e Implementos Agr\u00edcolas",
+        "value": 247,
+        "parent": "Engenharia Agr\u00edcola"
+    },
+    {
+        "label": "Planejamento e Avalia\u00e7\u00e3o Educacional",
+        "value": 246,
+        "parent": "Educa\u00e7\u00e3o"
+    },
+    {
+        "label": "Ortodontia",
+        "value": 241,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Oceanografia F\u00edsica",
+        "value": 240,
+        "parent": "Oceanografia"
+    },
+    {
+        "label": "Agrometeorologia",
+        "value": 235,
+        "parent": "Agronomia"
+    },
+    {
+        "label": "Silvicultura",
+        "value": 235,
+        "parent": "Recursos Florestais e Engenharia Florestal"
+    },
+    {
+        "label": "Aerodin\u00e2mica",
+        "value": 233,
+        "parent": "Engenharia Aeroespacial"
+    },
+    {
+        "label": "Fisiologia do Esfor\u00e7o",
+        "value": 231,
+        "parent": "Fisiologia"
+    },
+    {
+        "label": "Teoria Pol\u00edtica",
+        "value": 227,
+        "parent": "Ci\u00eancia Pol\u00edtica"
+    },
+    {
+        "label": "Psicologia Cognitiva",
+        "value": 226,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "Conserva\u00e7\u00e3o da Natureza",
+        "value": 223,
+        "parent": "Recursos Florestais e Engenharia Florestal"
+    },
+    {
+        "label": "Din\u00e2mica de V\u00f4o",
+        "value": 223,
+        "parent": "Engenharia Aeroespacial"
+    },
+    {
+        "label": "Administra\u00e7\u00e3o de Setores Espec\u00edficos",
+        "value": 218,
+        "parent": "Administra\u00e7\u00e3o"
+    },
+    {
+        "label": "L\u00edngua Portuguesa",
+        "value": 216,
+        "parent": "Letras"
+    },
+    {
+        "label": "Teoria Antropol\u00f3gica",
+        "value": 215,
+        "parent": "Antropologia"
+    },
+    {
+        "label": "Embriologia",
+        "value": 213,
+        "parent": "Morfologia"
+    },
+    {
+        "label": "L\u00ednguas Estrangeiras Modernas",
+        "value": 213,
+        "parent": "Letras"
+    },
+    {
+        "label": "Matem\u00e1tica da Computa\u00e7\u00e3o",
+        "value": 206,
+        "parent": "Ci\u00eancia da Computa\u00e7\u00e3o"
+    },
+    {
+        "label": "Astronomia do Sistema Solar",
+        "value": 205,
+        "parent": "Astronomia"
+    },
+    {
+        "label": "Oceanografia Geol\u00f3gica",
+        "value": 203,
+        "parent": "Oceanografia"
+    },
+    {
+        "label": "Tecnologia e Utiliza\u00e7\u00e3o de Produtos Florestais",
+        "value": 202,
+        "parent": "Recursos Florestais e Engenharia Florestal"
+    },
+    {
+        "label": "Teoria Econ\u00f4mica",
+        "value": 201,
+        "parent": "Economia"
+    },
+    {
+        "label": "Farmacologia Cl\u00ednica",
+        "value": 198,
+        "parent": "Farmacologia"
+    },
+    {
+        "label": "Engenharia de Minas",
+        "value": 196,
+        "parent": "Engenharias"
+    },
+    {
+        "label": "Demografia",
+        "value": 192,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Servi\u00e7o Social",
+        "value": 192,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "\u00c1reas Cl\u00e1ssicas de Fenomenologia e suas Aplica\u00e7\u00f5es",
+        "value": 189,
+        "parent": "F\u00edsica"
+    },
+    {
+        "label": "Arqueologia Pr\u00e9-hist\u00f3rica",
+        "value": 187,
+        "parent": "Arqueologia"
+    },
+    {
+        "label": "Enfermagem Pedi\u00e1trica",
+        "value": 186,
+        "parent": "Enfermagem"
+    },
+    {
+        "label": "Administra\u00e7\u00e3o Educacional",
+        "value": 181,
+        "parent": "Educa\u00e7\u00e3o"
+    },
+    {
+        "label": "Direitos Especiais",
+        "value": 179,
+        "parent": "Direito"
+    },
+    {
+        "label": "Engenharia de Processamento de Produtos Agr\u00edcolas",
+        "value": 178,
+        "parent": "Engenharia Agr\u00edcola"
+    },
+    {
+        "label": "Comunica\u00e7\u00e3o Visual",
+        "value": 178,
+        "parent": "Comunica\u00e7\u00e3o"
+    },
+    {
+        "label": "\u00c9tica",
+        "value": 174,
+        "parent": "Filosofia"
+    },
+    {
+        "label": "Infra-estrutura de Transportes",
+        "value": 174,
+        "parent": "Engenharia Civil"
+    },
+    {
+        "label": "Helmintologia de Parasitos",
+        "value": 173,
+        "parent": "Parasitologia"
+    },
+    {
+        "label": "Sociologia Urbana",
+        "value": 173,
+        "parent": "Sociologia"
+    },
+    {
+        "label": "Administra\u00e7\u00e3o P\u00fablica",
+        "value": 172,
+        "parent": "Administra\u00e7\u00e3o"
+    },
+    {
+        "label": "L\u00f3gica",
+        "value": 171,
+        "parent": "Filosofia"
+    },
+    {
+        "label": "Radiologia Odontol\u00f3gica",
+        "value": 169,
+        "parent": "Odontologia"
+    },
+    {
+        "label": "Teoria do Direito",
+        "value": 167,
+        "parent": "Direito"
+    },
+    {
+        "label": "Engenharia do Produto",
+        "value": 167,
+        "parent": "Engenharia de Produ\u00e7\u00e3o"
+    },
+    {
+        "label": "Economia Regional e Urbana",
+        "value": 166,
+        "parent": "Economia"
+    },
+    {
+        "label": "Recursos Pesqueiros de \u00c1guas Interiores",
+        "value": 165,
+        "parent": "Recursos Pesqueiros e Engenharia de Pesca"
+    },
+    {
+        "label": "Biof\u00edsica de Processos e Sistemas",
+        "value": 164,
+        "parent": "Biof\u00edsica"
+    },
+    {
+        "label": "Arqueologia Hist\u00f3rica",
+        "value": 164,
+        "parent": "Arqueologia"
+    },
+    {
+        "label": "Teoria e Filosofia da Hist\u00f3ria",
+        "value": 164,
+        "parent": "Hist\u00f3ria"
+    },
+    {
+        "label": "Fundamentos do Planejamento Urbano e Regional",
+        "value": 164,
+        "parent": "Planejamento Urbano e Regional"
+    },
+    {
+        "label": "Medicina Preventiva",
+        "value": 164,
+        "parent": "Sa\u00fade Coletiva"
+    },
+    {
+        "label": "Sistemas Aeroespaciais",
+        "value": 162,
+        "parent": "Engenharia Aeroespacial"
+    },
+    {
+        "label": "Lingu\u00edstica Hist\u00f3rica",
+        "value": 162,
+        "parent": "Lingu\u00edstica"
+    },
+    {
+        "label": "Enfermagem Obst\u00e9trica",
+        "value": 161,
+        "parent": "Enfermagem"
+    },
+    {
+        "label": "Enfermagem Psiqui\u00e1trica",
+        "value": 159,
+        "parent": "Enfermagem"
+    },
+    {
+        "label": "Arquivologia",
+        "value": 157,
+        "parent": "Ci\u00eancia da Informa\u00e7\u00e3o"
+    },
+    {
+        "label": "Ecologia dos Animais Dom\u00e9sticos e Etologia",
+        "value": 154,
+        "parent": "Zootecnia"
+    },
+    {
+        "label": "M\u00e9todos Quantitativos em Economia",
+        "value": 154,
+        "parent": "Economia"
+    },
+    {
+        "label": "Planejamento de Transportes",
+        "value": 152,
+        "parent": "Engenharia de Transportes"
+    },
+    {
+        "label": "Biof\u00edsica Celular",
+        "value": 149,
+        "parent": "Biof\u00edsica"
+    },
+    {
+        "label": "Astronomia de Posi\u00e7\u00e3o e Mec\u00e2nica Celeste",
+        "value": 149,
+        "parent": "Astronomia"
+    },
+    {
+        "label": "Dan\u00e7a",
+        "value": 149,
+        "parent": "Artes"
+    },
+    {
+        "label": "Economia Internacional",
+        "value": 143,
+        "parent": "Economia"
+    },
+    {
+        "label": "Instrumenta\u00e7\u00e3o Astron\u00f4mica",
+        "value": 142,
+        "parent": "Astronomia"
+    },
+    {
+        "label": "Paisagismo",
+        "value": 142,
+        "parent": "Arquitetura e Urbanismo"
+    },
+    {
+        "label": "Astrof\u00edsica do Meio Interestelar",
+        "value": 141,
+        "parent": "Astronomia"
+    },
+    {
+        "label": "Etnofarmacologia",
+        "value": 139,
+        "parent": "Farmacologia"
+    },
+    {
+        "label": "Extens\u00e3o Rural",
+        "value": 137,
+        "parent": "Agronomia"
+    },
+    {
+        "label": "Sociologia Rural",
+        "value": 137,
+        "parent": "Sociologia"
+    },
+    {
+        "label": "Desenho de Produto",
+        "value": 135,
+        "parent": "Desenho Industrial"
+    },
+    {
+        "label": "Fisiologia dos Grupos Recentes",
+        "value": 133,
+        "parent": "Zoologia"
+    },
+    {
+        "label": "Turismo",
+        "value": 133,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Paleozoologia",
+        "value": 131,
+        "parent": "Zoologia"
+    },
+    {
+        "label": "Inspe\u00e7\u00e3o de Produtos de Origem Animal",
+        "value": 129,
+        "parent": "Medicina Veterin\u00e1ria"
+    },
+    {
+        "label": "Hidrodin\u00e2mica de Navios e Sistemas Oce\u00e2nicos",
+        "value": 128,
+        "parent": "Engenharia Naval e Oce\u00e2nica"
+    },
+    {
+        "label": "L\u00ednguas Cl\u00e1ssicas",
+        "value": 128,
+        "parent": "Letras"
+    },
+    {
+        "label": "Museologia",
+        "value": 126,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Psicolingu\u00edstica",
+        "value": 126,
+        "parent": "Lingu\u00edstica"
+    },
+    {
+        "label": "Rela\u00e7\u00f5es P\u00fablicas e Propaganda",
+        "value": 124,
+        "parent": "Comunica\u00e7\u00e3o"
+    },
+    {
+        "label": "Servi\u00e7o Social Aplicado",
+        "value": 122,
+        "parent": "Servi\u00e7o Social"
+    },
+    {
+        "label": "Geografia Regional",
+        "value": 119,
+        "parent": "Geografia"
+    },
+    {
+        "label": "Manejo Florestal",
+        "value": 118,
+        "parent": "Recursos Florestais e Engenharia Florestal"
+    },
+    {
+        "label": "Farmacologia Auton\u00f4mica",
+        "value": 118,
+        "parent": "Farmacologia"
+    },
+    {
+        "label": "Estruturas Aeroespaciais",
+        "value": 118,
+        "parent": "Engenharia Aeroespacial"
+    },
+    {
+        "label": "Ci\u00eancias Cont\u00e1beis",
+        "value": 115,
+        "parent": "Administra\u00e7\u00e3o"
+    },
+    {
+        "label": "Economia do Bem-estar Social",
+        "value": 114,
+        "parent": "Economia"
+    },
+    {
+        "label": "Crescimento, Flutua\u00e7\u00f5es e Planejamento Econ\u00f4mico",
+        "value": 112,
+        "parent": "Economia"
+    },
+    {
+        "label": "Antropologia Rural",
+        "value": 111,
+        "parent": "Antropologia"
+    },
+    {
+        "label": "Economia Monet\u00e1ria e Fiscal",
+        "value": 109,
+        "parent": "Economia"
+    },
+    {
+        "label": "Propuls\u00e3o Aeroespacial",
+        "value": 107,
+        "parent": "Engenharia Aeroespacial"
+    },
+    {
+        "label": "Metalurgia Extrativa",
+        "value": 107,
+        "parent": "Engenharia de Materiais e Metal\u00fargica"
+    },
+    {
+        "label": "Antropologia das Popula\u00e7\u00f5es Afro-brasileiras",
+        "value": 105,
+        "parent": "Antropologia"
+    },
+    {
+        "label": "Teologia",
+        "value": 100,
+        "parent": "Ci\u00eancias Humanas"
+    },
+    {
+        "label": "Gen\u00e9tica Quantitativa",
+        "value": 99,
+        "parent": "Gen\u00e9tica"
+    },
+    {
+        "label": "Sociologia do Desenvolvimento",
+        "value": 99,
+        "parent": "Sociologia"
+    },
+    {
+        "label": "Economia dos Recursos Humanos",
+        "value": 99,
+        "parent": "Economia"
+    },
+    {
+        "label": "Curr\u00edculo",
+        "value": 97,
+        "parent": "Educa\u00e7\u00e3o"
+    },
+    {
+        "label": "Sociolingu\u00edstica e Dialetologia",
+        "value": 95,
+        "parent": "Lingu\u00edstica"
+    },
+    {
+        "label": "R\u00e1dio e Televis\u00e3o",
+        "value": 88,
+        "parent": "Comunica\u00e7\u00e3o"
+    },
+    {
+        "label": "Fundamentos da Sociologia",
+        "value": 86,
+        "parent": "Sociologia"
+    },
+    {
+        "label": "Desnutri\u00e7\u00e3o e Desenvolvimento Fisiol\u00f3gico",
+        "value": 80,
+        "parent": "Nutri\u00e7\u00e3o"
+    },
+    {
+        "label": "Floricultura, Parques e Jardins",
+        "value": 79,
+        "parent": "Agronomia"
+    },
+    {
+        "label": "Artes do V\u00eddeo",
+        "value": 76,
+        "parent": "Artes"
+    },
+    {
+        "label": "Psicologia do Trabalho e Organizacional",
+        "value": 75,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "Estruturas Navais e Oce\u00e2nicas",
+        "value": 74,
+        "parent": "Engenharia Naval e Oce\u00e2nica"
+    },
+    {
+        "label": "Oceanografia Qu\u00edmica",
+        "value": 69,
+        "parent": "Oceanografia"
+    },
+    {
+        "label": "Educa\u00e7\u00e3o Art\u00edstica",
+        "value": 69,
+        "parent": "Artes"
+    },
+    {
+        "label": "Fotografia",
+        "value": 69,
+        "parent": "Artes"
+    },
+    {
+        "label": "Sociologia do Conhecimento",
+        "value": 67,
+        "parent": "Sociologia"
+    },
+    {
+        "label": "Opera\u00e7\u00f5es de Transportes",
+        "value": 62,
+        "parent": "Engenharia de Transportes"
+    },
+    {
+        "label": "Enfermagem de Doen\u00e7as Contagiosas",
+        "value": 61,
+        "parent": "Enfermagem"
+    },
+    {
+        "label": "Tratamento de Min\u00e9rios",
+        "value": 61,
+        "parent": "Engenharia de Minas"
+    },
+    {
+        "label": "Energiza\u00e7\u00e3o Rural",
+        "value": 60,
+        "parent": "Engenharia Agr\u00edcola"
+    },
+    {
+        "label": "Recursos Pesqueiros Marinhos",
+        "value": 60,
+        "parent": "Recursos Pesqueiros e Engenharia de Pesca"
+    },
+    {
+        "label": "Saneamento B\u00e1sico",
+        "value": 60,
+        "parent": "Engenharia Sanit\u00e1ria"
+    },
+    {
+        "label": "Distribui\u00e7\u00e3o Espacial",
+        "value": 58,
+        "parent": "Demografia"
+    },
+    {
+        "label": "Programa\u00e7\u00e3o Visual",
+        "value": 58,
+        "parent": "Desenho Industrial"
+    },
+    {
+        "label": "Diet\u00e9tica",
+        "value": 57,
+        "parent": "Nutri\u00e7\u00e3o"
+    },
+    {
+        "label": "Medicina Legal e Deontologia",
+        "value": 56,
+        "parent": "Medicina"
+    },
+    {
+        "label": "Filosofia da Linguagem",
+        "value": 55,
+        "parent": "Lingu\u00edstica"
+    },
+    {
+        "label": "Energia de Biomassa Florestal",
+        "value": 54,
+        "parent": "Recursos Florestais e Engenharia Florestal"
+    },
+    {
+        "label": "Instala\u00e7\u00f5es e Equipamentos Metal\u00fargicos",
+        "value": 54,
+        "parent": "Engenharia de Materiais e Metal\u00fargica"
+    },
+    {
+        "label": "Teoria e M\u00e9todo em Arqueologia",
+        "value": 52,
+        "parent": "Arqueologia"
+    },
+    {
+        "label": "Metaf\u00edsica",
+        "value": 50,
+        "parent": "Filosofia"
+    },
+    {
+        "label": "Servi\u00e7os Urbanos e Regionais",
+        "value": 50,
+        "parent": "Planejamento Urbano e Regional"
+    },
+    {
+        "label": "Sociologia da Sa\u00fade",
+        "value": 49,
+        "parent": "Sociologia"
+    },
+    {
+        "label": "Psicologia Comparativa",
+        "value": 48,
+        "parent": "Psicologia"
+    },
+    {
+        "label": "Lavra",
+        "value": 47,
+        "parent": "Engenharia de Minas"
+    },
+    {
+        "label": "Engenharia Econ\u00f4mica",
+        "value": 47,
+        "parent": "Engenharia de Produ\u00e7\u00e3o"
+    },
+    {
+        "label": "L\u00ednguas Ind\u00edgenas",
+        "value": 46,
+        "parent": "Letras"
+    },
+    {
+        "label": "Tecnologia dos Reatores",
+        "value": 44,
+        "parent": "Engenharia Nuclear"
+    },
+    {
+        "label": "Fitogeografia",
+        "value": 43,
+        "parent": "Bot\u00e2nica"
+    },
+    {
+        "label": "Teoria da Informa\u00e7\u00e3o",
+        "value": 41,
+        "parent": "Ci\u00eancia da Informa\u00e7\u00e3o"
+    },
+    {
+        "label": "Materiais e Processos para Engenharia Aeron\u00e1utica, Aeroespacial",
+        "value": 41,
+        "parent": "Engenharia Aeroespacial"
+    },
+    {
+        "label": "Projeto de Navios e de Sistemas Oce\u00e2nicos",
+        "value": 35,
+        "parent": "Engenharia Naval e Oce\u00e2nica"
+    },
+    {
+        "label": "Pesquisa Mineral",
+        "value": 32,
+        "parent": "Engenharia de Minas"
+    },
+    {
+        "label": "Ve\u00edculos e Equipamentos de Controle",
+        "value": 31,
+        "parent": "Engenharia de Transportes"
+    },
+    {
+        "label": "Hist\u00f3ria da Teologia",
+        "value": 30,
+        "parent": "Teologia"
+    },
+    {
+        "label": "Teologia Sistem\u00e1tica",
+        "value": 28,
+        "parent": "Teologia"
+    },
+    {
+        "label": "Pol\u00edtica P\u00fablica e Popula\u00e7\u00e3o",
+        "value": 28,
+        "parent": "Demografia"
+    },
+    {
+        "label": "Paleobot\u00e2nica",
+        "value": 27,
+        "parent": "Bot\u00e2nica"
+    },
+    {
+        "label": "Demografia Hist\u00f3rica",
+        "value": 27,
+        "parent": "Demografia"
+    },
+    {
+        "label": "Bromatologia",
+        "value": 27,
+        "parent": "Farm\u00e1cia"
+    },
+    {
+        "label": "T\u00e9cnicas e Opera\u00e7\u00f5es Florestais",
+        "value": 26,
+        "parent": "Recursos Florestais e Engenharia Florestal"
+    },
+    {
+        "label": "Fundamentos do Servi\u00e7o Social",
+        "value": 24,
+        "parent": "Servi\u00e7o Social"
+    },
+    {
+        "label": "Combust\u00edvel Nuclear",
+        "value": 17,
+        "parent": "Engenharia Nuclear"
+    },
+    {
+        "label": "Componentes da Din\u00e2mica Demogr\u00e1fica",
+        "value": 15,
+        "parent": "Demografia"
+    },
+    {
+        "label": "Teologia Pastoral",
+        "value": 14,
+        "parent": "Teologia"
+    },
+    {
+        "label": "M\u00e1quinas Mar\u00edtimas",
+        "value": 12,
+        "parent": "Engenharia Naval e Oce\u00e2nica"
+    },
+    {
+        "label": "Orienta\u00e7\u00e3o e Aconselhamento",
+        "value": 11,
+        "parent": "Educa\u00e7\u00e3o"
+    },
+    {
+        "label": "Nupcialidade e Fam\u00edlia",
+        "value": 7,
+        "parent": "Demografia"
+    },
+    {
+        "label": "Filosofia Brasileira",
+        "value": 6,
+        "parent": "Filosofia"
+    },
+    {
+        "label": "Tend\u00eancia Populacional",
+        "value": 6,
+        "parent": "Demografia"
+    },
+    {
+        "label": "Tecnologia de Constru\u00e7\u00e3o Naval e de Sistemas Oce\u00e2nicos",
+        "value": 6,
+        "parent": "Engenharia Naval e Oce\u00e2nica"
+    },
+    {
+        "label": "\u00d3pera",
+        "value": 6,
+        "parent": "Artes"
+    },
+    {
+        "label": "Engenharia de Pesca",
+        "value": 4,
+        "parent": "Recursos Pesqueiros e Engenharia de Pesca"
+    },
+    {
+        "label": "Fontes de Dados Demogr\u00e1ficos",
+        "value": 4,
+        "parent": "Demografia"
+    },
+    {
+        "label": "Fus\u00e3o Controlada",
+        "value": 4,
+        "parent": "Engenharia Nuclear"
+    },
+    {
+        "label": "Citologia e Biologia Celular",
+        "value": 1,
+        "parent": "Bioqu\u00edmica"
+    },
+    {
+        "label": "Tratamentos de \u00c1guas de Abastecimento e Residu\u00e1rias",
+        "value": 1,
+        "parent": "Ecologia"
+    },
+    {
+        "label": "Qu\u00edmica de Macromol\u00e9culas",
+        "value": 1,
+        "parent": "Matem\u00e1tica"
+    },
+    {
+        "label": "Qu\u00edmica Org\u00e2nica",
+        "value": 1,
+        "parent": "Microbiologia"
+    },
+    {
+        "label": "Ecologia de Ecossistemas",
+        "value": 1,
+        "parent": "Zoologia"
+    },
+    {
+        "label": "Estat\u00edstica",
+        "value": 1,
+        "parent": "Matem\u00e1tica"
+    },
+    {
+        "label": "Teologia Moral",
+        "value": 1,
+        "parent": "Teologia"
+    },
+    {
+        "label": "Economia Dom\u00e9stica",
+        "value": 1,
+        "parent": "Ci\u00eancias Sociais Aplicadas"
+    },
+    {
+        "label": "Qu\u00edmica Inorg\u00e2nica",
+        "value": 1,
+        "parent": "Farm\u00e1cia"
+    },
+    {
+        "label": "Gen\u00e9tica Molecular e de Microorganismos",
+        "value": 1,
+        "parent": "Medicina"
+    },
+    {
+        "label": "\u00c1lgebra",
+        "value": 1,
+        "parent": "Engenharia de Materiais e Metal\u00fargica"
+    },
+    {
+        "label": "F\u00edsica da Mat\u00e9ria Condensada",
+        "value": 1,
+        "parent": "F\u00edsica"
+    },
+    {
+        "label": "L\u00edngua Portuguesa",
+        "value": 1,
+        "parent": "Lingu\u00edstica"
+    }
+]
